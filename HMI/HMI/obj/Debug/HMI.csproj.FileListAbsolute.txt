@@ -1,0 +1,184 @@
+D:\C #\HMI\HMI\bin\Debug\HMI.exe.config
+D:\C #\HMI\HMI\bin\Debug\HMI.exe
+D:\C #\HMI\HMI\bin\Debug\HMI.pdb
+D:\C #\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+D:\C #\HMI\HMI\obj\Debug\HMI.Form1.resources
+D:\C #\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+D:\C #\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+D:\C #\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+D:\C #\HMI\HMI\obj\Debug\HMI.exe
+D:\C #\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\完整\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix update\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\C#+F401\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0812\HMI\HMI\obj\Debug\HMI.pdb
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\bin\Debug\HMI.exe.config
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\bin\Debug\HMI.exe
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\bin\Debug\HMI.pdb
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.Form1.resources
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.exe
+D:\C#+F401\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0901\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0907\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\user\Desktop\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.pdb
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\bin\Debug\HMI.exe.config
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\bin\Debug\HMI.exe
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\bin\Debug\HMI.pdb
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.Form1.resources
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.exe
+D:\C#+F401\4 asix update Interrupt - 0908\HMI\HMI\obj\Debug\HMI.pdb
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\bin\Debug\HMI.exe.config
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\bin\Debug\HMI.exe
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\bin\Debug\HMI.pdb
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.Form1.resources
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.exe
+D:\C#+F401\4 asix update Interrupt -1012 - uart6\HMI\HMI\obj\Debug\HMI.pdb
+C:\Users\Danny Chien\Downloads\HMI\HMI\bin\Debug\HMI.exe.config
+C:\Users\Danny Chien\Downloads\HMI\HMI\bin\Debug\HMI.exe
+C:\Users\Danny Chien\Downloads\HMI\HMI\bin\Debug\HMI.pdb
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.csprojAssemblyReference.cache
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.Form1.resources
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.exe
+C:\Users\Danny Chien\Downloads\HMI\HMI\obj\Debug\HMI.pdb
+D:\user\Downloads\HMI\HMI\bin\Debug\HMI.exe.config
+D:\user\Downloads\HMI\HMI\bin\Debug\HMI.exe
+D:\user\Downloads\HMI\HMI\bin\Debug\HMI.pdb
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.Form1.resources
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.limit_signal.resources
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.exe
+D:\user\Downloads\HMI\HMI\obj\Debug\HMI.pdb
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\bin\Debug\HMI.exe.config
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\bin\Debug\HMI.exe
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\bin\Debug\HMI.pdb
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.csproj.AssemblyReference.cache
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.csproj.SuggestedBindingRedirects.cache
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.Form1.resources
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.limit_signal.resources
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.Properties.Resources.resources
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.csproj.GenerateResource.cache
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.csproj.CoreCompileInputs.cache
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.exe
+E:\Data\C#+F401\C#+F401\10_13_last_HMI\HMI\obj\Debug\HMI.pdb
