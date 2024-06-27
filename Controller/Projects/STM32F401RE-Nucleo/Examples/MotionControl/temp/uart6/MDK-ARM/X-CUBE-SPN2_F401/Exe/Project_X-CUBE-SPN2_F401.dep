@@ -1,0 +1,32 @@
+Dependencies for Project 'Project', Target 'X-CUBE-SPN2_F401': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (../../../../../../Drivers/BSP/Components/L6470/L6470.c)(0x5D9F306A)(--c99 -c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O1 --apcs=interwork --split_sections -I ../Inc -I ../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc -I ../../../../../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../../../../../../Drivers/CMSIS/Include -I ../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../../../../../../Drivers/BSP/Components/L6470 -I ../../../../../../Drivers/BSP/Components/Common -I ../../../../../../Drivers/BSP/STM32F4xx-Nucleo -I ../../../../../../Drivers/BSP/X-NUCLEO-IHM02A1 -I ../../../../../../Drivers/BSP/X-NUCLEO-IHM02A1/NUCLEO-F401RE-I.\RTE\_X-CUBE-SPN2_F401-IC:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F401xE -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F401xE-o x-cube-spn2_f401\exe\l6470.o --omf_browse x-cube-spn2_f401\exe\l6470.crf --depend x-cube-spn2_f401\exe\l6470.d)
+I (../../../../../../Drivers/BSP/Components/L6470/L6470.h)(0x5D9F306A)
+I (../../../../../../Drivers/BSP/Components/Common/microstepping_motor.h)(0x5D9F306A)
+F (../../../../../../Drivers/BSP/STM32F4xx-Nucleo/stm32f4xx_nucleo.c)(0x5D9F306A)()
+F (../../../../../../Drivers/BSP/X-NUCLEO-IHM02A1/xnucleoihm02a1.c)(0x5D9F306A)()
+F (../../../../../../Drivers/BSP/X-NUCLEO-IHM02A1/NUCLEO-F401RE/xnucleoihm02a1_interface.c)(0x62FC9E66)()
+F (../../../../../../Drivers/CMSIS/Device/ST/STM32F4xx/Source/Templates/system_stm32f4xx.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_spi.c)(0x5D9F306A)()
+F (../../../../../../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x5D9F306A)()
+F (startup_stm32f401xe.s)(0x5D9F306A)()
+F (../Src/example.c)(0x620DDEE8)()
+F (../Src/example_usart.c)(0x62172506)()
+F (../Src/main.c)(0x61C58056)()
+F (../Src/params.c)(0x620DDE00)()
+F (../Src/stm32f4xx_hal_msp.c)(0x6214D4A8)()
+F (../Src/stm32f4xx_it.c)(0x62150D24)()

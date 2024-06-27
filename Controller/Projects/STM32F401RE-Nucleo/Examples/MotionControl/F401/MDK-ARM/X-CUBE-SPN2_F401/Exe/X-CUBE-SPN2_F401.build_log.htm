@@ -1,0 +1,182 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: £gVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Chen Yu-Xian, NYUST, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\C#+F401\4 asix update Interrupt -1012 - uart2\C#+F401\Projects\STM32F401RE-Nucleo\Examples\MotionControl\C#+f401\MDK-ARM\Project.uvprojx
+Project File Date:  05/03/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'X-CUBE-SPN2_F401'
+compiling system_stm32f4xx.c...
+compiling stm32f4xx_hal.c...
+compiling stm32f4xx_nucleo.c...
+compiling xnucleoihm02a1_interface.c...
+compiling xnucleoihm02a1.c...
+compiling stm32f4xx_hal_adc.c...
+compiling L6470.c...
+compiling stm32f4xx_hal_cortex.c...
+compiling stm32f4xx_hal_dma_ex.c...
+compiling stm32f4xx_hal_dma.c...
+compiling stm32f4xx_hal_flash_ramfunc.c...
+compiling stm32f4xx_hal_adc_ex.c...
+compiling stm32f4xx_hal_flash.c...
+compiling stm32f4xx_hal_flash_ex.c...
+compiling stm32f4xx_hal_rcc_ex.c...
+compiling stm32f4xx_hal_pwr_ex.c...
+compiling stm32f4xx_hal_pwr.c...
+compiling stm32f4xx_hal_gpio.c...
+compiling stm32f4xx_hal_spi.c...
+compiling stm32f4xx_hal_uart.c...
+compiling stm32f4xx_hal_rcc.c...
+assembling startup_stm32f401xe.s...
+compiling params.c...
+compiling stm32f4xx_hal_msp.c...
+compiling stm32f4xx_it.c...
+compiling main.c...
+compiling example_usart.c...
+compiling example.c...
+../Src/example.c(46): warning:  #1295-D: Deprecated declaration limit_command - give arg types
+  	void limit_command();
+../Src/example.c(148): warning:  #188-D: enumerated type mixed with another type
+  								BSP_L6470_Move(buffer[2],buffer[3],buffer[4],Move_step);
+../Src/example.c(219): warning:  #188-D: enumerated type mixed with another type
+  								BSP_L6470_Run(buffer[2],buffer[3],0,speed);
+../Src/example.c(583): warning:  #188-D: enumerated type mixed with another type
+  								BSP_L6470_Run(buffer[2],buffer[3],dir,speed);
+../Src/example.c(606): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(buffer[2],buffer[3],dir,step);
+../Src/example.c(119): warning:  #550-D: variable "temp"  was set but never used
+  						uint8_t temp[FRAME_LENGTH]={0xAA,0xa0,0x45,0x03,0xAA,0xab,0xac,0xad,0xae,0xA0};
+../Src/example.c(121): warning:  #177-D: variable "REG"  was declared but never referenced
+  						uint8_t REG[9]={0x00,0x02,0x03,0x04,0x05,0x06,0x07,0x15,0x18};
+../Src/example.c(122): warning:  #177-D: variable "position"  was declared but never referenced
+  							int position;
+../Src/example.c(123): warning:  #177-D: variable "h"  was declared but never referenced
+  							int h;
+../Src/example.c(124): warning:  #177-D: variable "step_s"  was declared but never referenced
+  							int step,step_s;
+../Src/example.c(125): warning:  #177-D: variable "acc"  was declared but never referenced
+  							double values,speed,acc,Speed;
+../Src/example.c(125): warning:  #177-D: variable "Speed"  was declared but never referenced
+  							double values,speed,acc,Speed;
+../Src/example.c(98): warning:  #177-D: variable "value"  was declared but never referenced
+  				uint32_t  value;
+../Src/example.c(99): warning:  #177-D: variable "Status"  was declared but never referenced
+  				uint16_t  Status;
+../Src/example.c(796): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(0,1,0,speed);
+../Src/example.c(814): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,1,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(0,1,21)));
+../Src/example.c(814): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,1,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(0,1,21)));
+../Src/example.c(829): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,1,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(829): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,1,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(852): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(0,0,1,speed);
+../Src/example.c(871): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,0,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(871): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,0,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(886): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,0,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(0,0,21)));
+../Src/example.c(886): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(0,0,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(0,0,21)));
+../Src/example.c(909): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(1,1,1,speed);
+../Src/example.c(925): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(0,0,0,speed);
+../Src/example.c(942): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(0,1,1,speed);
+../Src/example.c(957): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(1,1,0,speed);
+../Src/example.c(974): warning:  #188-D: enumerated type mixed with another type
+  							BSP_L6470_Run(1,0,1,speed);
+../Src/example.c(992): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,1,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(992): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,1,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(1007): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,1,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,1,21)));
+../Src/example.c(1007): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,1,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,1,21)));
+../Src/example.c(1031): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,0,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(1031): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,0,0,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(1046): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,0,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(1046): warning:  #188-D: enumerated type mixed with another type
+  									BSP_L6470_Move(1,0,1,Home_Reset_Step*usrPow(2,BSP_L6470_GetParam(1,0,21)));
+../Src/example.c(1067): warning:  #188-D: enumerated type mixed with another type
+  						BSP_L6470_Run(1,0,0,speed);
+../Src/example.c(1234): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(0,0,1,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1240): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(0,0,0,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1253): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(0,1,1,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1259): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(0,1,0,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1270): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(1,0,1,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1276): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(1,0,0,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1286): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(1,1,1,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c(1292): warning:  #188-D: enumerated type mixed with another type
+  				BSP_L6470_Run(1,1,0,Step_s_2_Speed(Home_Reset_Speed));
+../Src/example.c: 46 warnings, 0 errors
+linking...
+Program Size: Code=21316 RO-data=2320 RW-data=1092 ZI-data=1644  
+After Build - User command #1: fromelf --bin --output=.\..\Binary\X-CUBE-SPN2_F401.bin X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf
+After Build - User command #2: fromelf --i32combined --output=.\..\Binary\X-CUBE-SPN2_F401.hex X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf
+"X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf" - 0 Error(s), 46 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_X-CUBE-SPN2_F401
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>

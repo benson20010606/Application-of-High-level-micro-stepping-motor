@@ -1,0 +1,1877 @@
+<!doctype html public "-//w3c//dtd html 4.0 transitional//en">
+<html><head>
+<title>Static Call Graph - [X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf]</title></head>
+<body><HR>
+<H1>Static Call Graph for image X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf</H1><HR>
+<BR><P>#&#060CALLGRAPH&#062# ARM Linker, 5060960: Last Updated: Sat May 07 00:07:42 2022
+<BR><P>
+<H3>Maximum Stack Usage =        176 bytes + Unknown(Cycles, Untraceable Function Pointers)</H3><H3>
+Call chain for Maximum Stack Depth:</H3>
+BSP_L6470_CheckStatusRegisterFlag &rArr; L6470_CheckStatusRegisterFlag &rArr; L6470_GetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+<P>
+<H3>
+Mutually Recursive functions
+</H3> <LI><a href="#[47]">NMI_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[47]">NMI_Handler</a><BR>
+ <LI><a href="#[48]">HardFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[48]">HardFault_Handler</a><BR>
+ <LI><a href="#[49]">MemManage_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[49]">MemManage_Handler</a><BR>
+ <LI><a href="#[4a]">BusFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4a]">BusFault_Handler</a><BR>
+ <LI><a href="#[4b]">UsageFault_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4b]">UsageFault_Handler</a><BR>
+ <LI><a href="#[4c]">SVC_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4c]">SVC_Handler</a><BR>
+ <LI><a href="#[4d]">DebugMon_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4d]">DebugMon_Handler</a><BR>
+ <LI><a href="#[4e]">PendSV_Handler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[4e]">PendSV_Handler</a><BR>
+ <LI><a href="#[62]">ADC_IRQHandler</a>&nbsp;&nbsp;&nbsp;&rArr;&nbsp;&nbsp;&nbsp;<a href="#[62]">ADC_IRQHandler</a><BR>
+</UL>
+<P>
+<H3>
+Function Pointers
+</H3><UL>
+ <LI><a href="#[62]">ADC_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[41]">BSP_0_Config</a> from xnucleoihm02a1.o(i.BSP_0_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[43]">BSP_1_Config</a> from xnucleoihm02a1.o(i.BSP_1_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[44]">BSP_2_Config</a> from xnucleoihm02a1.o(i.BSP_2_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[45]">BSP_3_Config</a> from xnucleoihm02a1.o(i.BSP_3_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[39]">BSP_L6470_0_0_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_0_0_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[3a]">BSP_L6470_0_1_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_0_1_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[3b]">BSP_L6470_1_0_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_1_0_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[3c]">BSP_L6470_1_1_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_1_1_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[3d]">BSP_L6470_2_0_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_2_0_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[3e]">BSP_L6470_2_1_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_2_1_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[3f]">BSP_L6470_3_0_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_3_0_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[40]">BSP_L6470_3_1_Config</a> from xnucleoihm02a1.o(i.BSP_L6470_3_1_Config) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[37]">BSP_L6470_CheckStatusRegisterFlag</a> from xnucleoihm02a1.o(i.BSP_L6470_CheckStatusRegisterFlag) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[26]">BSP_L6470_GetParam</a> from xnucleoihm02a1.o(i.BSP_L6470_GetParam) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[36]">BSP_L6470_GetStatus</a> from xnucleoihm02a1.o(i.BSP_L6470_GetStatus) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[2e]">BSP_L6470_GoHome</a> from xnucleoihm02a1.o(i.BSP_L6470_GoHome) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[2f]">BSP_L6470_GoMark</a> from xnucleoihm02a1.o(i.BSP_L6470_GoMark) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[2a]">BSP_L6470_GoTo</a> from xnucleoihm02a1.o(i.BSP_L6470_GoTo) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[2b]">BSP_L6470_GoToDir</a> from xnucleoihm02a1.o(i.BSP_L6470_GoToDir) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[2c]">BSP_L6470_GoUntil</a> from xnucleoihm02a1.o(i.BSP_L6470_GoUntil) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[35]">BSP_L6470_HardHiZ</a> from xnucleoihm02a1.o(i.BSP_L6470_HardHiZ) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[33]">BSP_L6470_HardStop</a> from xnucleoihm02a1.o(i.BSP_L6470_HardStop) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[29]">BSP_L6470_Move</a> from xnucleoihm02a1.o(i.BSP_L6470_Move) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[2d]">BSP_L6470_ReleaseSW</a> from xnucleoihm02a1.o(i.BSP_L6470_ReleaseSW) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[31]">BSP_L6470_ResetDevice</a> from xnucleoihm02a1.o(i.BSP_L6470_ResetDevice) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[30]">BSP_L6470_ResetPos</a> from xnucleoihm02a1.o(i.BSP_L6470_ResetPos) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[27]">BSP_L6470_Run</a> from xnucleoihm02a1.o(i.BSP_L6470_Run) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[25]">BSP_L6470_SetParam</a> from xnucleoihm02a1.o(i.BSP_L6470_SetParam) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[34]">BSP_L6470_SoftHiZ</a> from xnucleoihm02a1.o(i.BSP_L6470_SoftHiZ) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[32]">BSP_L6470_SoftStop</a> from xnucleoihm02a1.o(i.BSP_L6470_SoftStop) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[28]">BSP_L6470_StepClock</a> from xnucleoihm02a1.o(i.BSP_L6470_StepClock) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[42]">BSP_Select</a> from xnucleoihm02a1.o(i.BSP_Select) referenced 8 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[4a]">BusFault_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[5b]">DMA1_Stream0_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[5c]">DMA1_Stream1_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[5d]">DMA1_Stream2_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[5e]">DMA1_Stream3_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[5f]">DMA1_Stream4_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[60]">DMA1_Stream5_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[61]">DMA1_Stream6_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[76]">DMA1_Stream7_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[7a]">DMA2_Stream0_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[7b]">DMA2_Stream1_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[7c]">DMA2_Stream2_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[7d]">DMA2_Stream3_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[7e]">DMA2_Stream4_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[80]">DMA2_Stream5_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[81]">DMA2_Stream6_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[82]">DMA2_Stream7_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[4d]">DebugMon_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[56]">EXTI0_IRQHandler</a> from stm32f4xx_it.o(i.EXTI0_IRQHandler) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[73]">EXTI15_10_IRQHandler</a> from stm32f4xx_it.o(i.EXTI15_10_IRQHandler) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[57]">EXTI1_IRQHandler</a> from stm32f4xx_it.o(i.EXTI1_IRQHandler) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[58]">EXTI2_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[59]">EXTI3_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[5a]">EXTI4_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[63]">EXTI9_5_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[54]">FLASH_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[86]">FPU_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[48]">HardFault_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[6c]">I2C1_ER_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[6b]">I2C1_EV_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[6e]">I2C2_ER_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[6d]">I2C2_EV_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[85]">I2C3_ER_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[84]">I2C3_EV_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[24]">L6470_CheckStatusRegisterFlag</a> from l6470.o(i.L6470_CheckStatusRegisterFlag) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1]">L6470_GetParam</a> from l6470.o(i.L6470_GetParam) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[11]">L6470_GetStatus</a> from l6470.o(i.L6470_GetStatus) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[9]">L6470_GoHome</a> from l6470.o(i.L6470_GoHome) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[a]">L6470_GoMark</a> from l6470.o(i.L6470_GoMark) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[5]">L6470_GoTo</a> from l6470.o(i.L6470_GoTo) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[6]">L6470_GoToDir</a> from l6470.o(i.L6470_GoToDir) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[7]">L6470_GoUntil</a> from l6470.o(i.L6470_GoUntil) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[10]">L6470_HardHiZ</a> from l6470.o(i.L6470_HardHiZ) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[e]">L6470_HardStop</a> from l6470.o(i.L6470_HardStop) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[4]">L6470_Move</a> from l6470.o(i.L6470_Move) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[38]">L6470_PerformPreparedApplicationCommand</a> from l6470.o(i.L6470_PerformPreparedApplicationCommand) referenced 2 times from xnucleoihm02a1.o(.data)
+ <LI><a href="#[13]">L6470_PrepareGetParam</a> from l6470.o(i.L6470_PrepareGetParam) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[23]">L6470_PrepareGetStatus</a> from l6470.o(i.L6470_PrepareGetStatus) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1b]">L6470_PrepareGoHome</a> from l6470.o(i.L6470_PrepareGoHome) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1c]">L6470_PrepareGoMark</a> from l6470.o(i.L6470_PrepareGoMark) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[17]">L6470_PrepareGoTo</a> from l6470.o(i.L6470_PrepareGoTo) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[18]">L6470_PrepareGoToDir</a> from l6470.o(i.L6470_PrepareGoToDir) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[19]">L6470_PrepareGoUntil</a> from l6470.o(i.L6470_PrepareGoUntil) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[22]">L6470_PrepareHardHiZ</a> from l6470.o(i.L6470_PrepareHardHiZ) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[20]">L6470_PrepareHardStop</a> from l6470.o(i.L6470_PrepareHardStop) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[16]">L6470_PrepareMove</a> from l6470.o(i.L6470_PrepareMove) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1a]">L6470_PrepareReleaseSW</a> from l6470.o(i.L6470_PrepareReleaseSW) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1e]">L6470_PrepareResetDevice</a> from l6470.o(i.L6470_PrepareResetDevice) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1d]">L6470_PrepareResetPos</a> from l6470.o(i.L6470_PrepareResetPos) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[14]">L6470_PrepareRun</a> from l6470.o(i.L6470_PrepareRun) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[12]">L6470_PrepareSetParam</a> from l6470.o(i.L6470_PrepareSetParam) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[21]">L6470_PrepareSoftHiZ</a> from l6470.o(i.L6470_PrepareSoftHiZ) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[1f]">L6470_PrepareSoftStop</a> from l6470.o(i.L6470_PrepareSoftStop) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[15]">L6470_PrepareStepClock</a> from l6470.o(i.L6470_PrepareStepClock) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[8]">L6470_ReleaseSW</a> from l6470.o(i.L6470_ReleaseSW) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[c]">L6470_ResetDevice</a> from l6470.o(i.L6470_ResetDevice) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[b]">L6470_ResetPos</a> from l6470.o(i.L6470_ResetPos) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[2]">L6470_Run</a> from l6470.o(i.L6470_Run) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[0]">L6470_SetParam</a> from l6470.o(i.L6470_SetParam) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[f]">L6470_SoftHiZ</a> from l6470.o(i.L6470_SoftHiZ) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[d]">L6470_SoftStop</a> from l6470.o(i.L6470_SoftStop) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[3]">L6470_StepClock</a> from l6470.o(i.L6470_StepClock) referenced 2 times from l6470.o(.data)
+ <LI><a href="#[49]">MemManage_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[47]">NMI_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[7f]">OTG_FS_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[75]">OTG_FS_WKUP_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[51]">PVD_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[4e]">PendSV_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[55]">RCC_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[74]">RTC_Alarm_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[53]">RTC_WKUP_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[46]">Reset_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[77]">SDIO_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[6f]">SPI1_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[70]">SPI2_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[79]">SPI3_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[87]">SPI4_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[4c]">SVC_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[4f]">SysTick_Handler</a> from stm32f4xx_it.o(i.SysTick_Handler) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[89]">SystemInit</a> from system_stm32f4xx.o(i.SystemInit) referenced from startup_stm32f401xe.o(.text)
+ <LI><a href="#[52]">TAMP_STAMP_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[64]">TIM1_BRK_TIM9_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[67]">TIM1_CC_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[66]">TIM1_TRG_COM_TIM11_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[65]">TIM1_UP_TIM10_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[68]">TIM2_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[69]">TIM3_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[6a]">TIM4_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[78]">TIM5_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[71]">USART1_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[72]">USART2_IRQHandler</a> from stm32f4xx_it.o(i.USART2_IRQHandler) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[83]">USART6_IRQHandler</a> from stm32f4xx_it.o(i.USART6_IRQHandler) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[4b]">UsageFault_Handler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[50]">WWDG_IRQHandler</a> from startup_stm32f401xe.o(.text) referenced from startup_stm32f401xe.o(RESET)
+ <LI><a href="#[8a]">__main</a> from entry.o(.ARM.Collect$$$$00000000) referenced from startup_stm32f401xe.o(.text)
+ <LI><a href="#[88]">main</a> from main.o(i.main) referenced from entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P>
+<H3>
+Global Symbols
+</H3>
+<P><STRONG><a name="[8a]"></a>__main</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry.o(.ARM.Collect$$$$00000000))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(.text)
+</UL>
+<P><STRONG><a name="[e5]"></a>_main_stk</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry2.o(.ARM.Collect$$$$00000001))
+
+<P><STRONG><a name="[8b]"></a>_main_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Calls]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[8d]"></a>__main_after_scatterload</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry5.o(.ARM.Collect$$$$00000004))
+<BR><BR>[Called By]<UL><LI><a href="#[8c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__scatterload
+</UL>
+
+<P><STRONG><a name="[e6]"></a>_main_clock</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry7b.o(.ARM.Collect$$$$00000008))
+
+<P><STRONG><a name="[e7]"></a>_main_cpp_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry8b.o(.ARM.Collect$$$$0000000A))
+
+<P><STRONG><a name="[e8]"></a>_main_init</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry9a.o(.ARM.Collect$$$$0000000B))
+
+<P><STRONG><a name="[e9]"></a>__rt_lib_shutdown_fini</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry12b.o(.ARM.Collect$$$$0000000E))
+
+<P><STRONG><a name="[ea]"></a>__rt_final_cpp</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry10a.o(.ARM.Collect$$$$0000000F))
+
+<P><STRONG><a name="[eb]"></a>__rt_final_exit</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, entry11a.o(.ARM.Collect$$$$00000011))
+
+<P><STRONG><a name="[46]"></a>Reset_Handler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[47]"></a>NMI_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[47]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NMI_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[48]"></a>HardFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[48]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HardFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[49]"></a>MemManage_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[49]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MemManage_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[4a]"></a>BusFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BusFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[4b]"></a>UsageFault_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UsageFault_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[4c]"></a>SVC_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SVC_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[4d]"></a>DebugMon_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;DebugMon_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[4e]"></a>PendSV_Handler</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;PendSV_Handler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[62]"></a>ADC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Called By]<UL><LI><a href="#[62]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;ADC_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[5b]"></a>DMA1_Stream0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[5c]"></a>DMA1_Stream1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[5d]"></a>DMA1_Stream2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[5e]"></a>DMA1_Stream3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[5f]"></a>DMA1_Stream4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[60]"></a>DMA1_Stream5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[61]"></a>DMA1_Stream6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[76]"></a>DMA1_Stream7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[7a]"></a>DMA2_Stream0_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[7b]"></a>DMA2_Stream1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[7c]"></a>DMA2_Stream2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[7d]"></a>DMA2_Stream3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[7e]"></a>DMA2_Stream4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[80]"></a>DMA2_Stream5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[81]"></a>DMA2_Stream6_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[82]"></a>DMA2_Stream7_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[58]"></a>EXTI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[59]"></a>EXTI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[5a]"></a>EXTI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[63]"></a>EXTI9_5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[54]"></a>FLASH_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[86]"></a>FPU_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[6c]"></a>I2C1_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[6b]"></a>I2C1_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[6e]"></a>I2C2_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[6d]"></a>I2C2_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[85]"></a>I2C3_ER_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[84]"></a>I2C3_EV_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[7f]"></a>OTG_FS_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[75]"></a>OTG_FS_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[51]"></a>PVD_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[55]"></a>RCC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[74]"></a>RTC_Alarm_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[53]"></a>RTC_WKUP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[77]"></a>SDIO_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[6f]"></a>SPI1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[70]"></a>SPI2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[79]"></a>SPI3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[87]"></a>SPI4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[52]"></a>TAMP_STAMP_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[64]"></a>TIM1_BRK_TIM9_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[67]"></a>TIM1_CC_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[66]"></a>TIM1_TRG_COM_TIM11_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[65]"></a>TIM1_UP_TIM10_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[68]"></a>TIM2_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[69]"></a>TIM3_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[6a]"></a>TIM4_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[78]"></a>TIM5_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[71]"></a>USART1_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[50]"></a>WWDG_IRQHandler</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, startup_stm32f401xe.o(.text))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[8c]"></a>__scatterload</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, init.o(.text))
+<BR><BR>[Calls]<UL><LI><a href="#[8d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;__main_after_scatterload
+</UL>
+<BR>[Called By]<UL><LI><a href="#[8b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;_main_scatterload
+</UL>
+
+<P><STRONG><a name="[ec]"></a>__scatterload_rt2</STRONG> (Thumb, 0 bytes, Stack size 0 bytes, init.o(.text), UNUSED)
+
+<P><STRONG><a name="[ed]"></a>__decompress</STRONG> (Thumb, 0 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[ee]"></a>__decompress1</STRONG> (Thumb, 86 bytes, Stack size unknown bytes, __dczerorl2.o(.text), UNUSED)
+
+<P><STRONG><a name="[41]"></a>BSP_0_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_0_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_0_Config &rArr; BSP_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[43]"></a>BSP_1_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_1_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_1_Config &rArr; BSP_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[44]"></a>BSP_2_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_2_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_2_Config &rArr; BSP_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[45]"></a>BSP_3_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_3_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_3_Config &rArr; BSP_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[8e]"></a>BSP_Config</STRONG> (Thumb, 34 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_Config
+</UL>
+<BR>[Called By]<UL><LI><a href="#[45]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_3_Config
+<LI><a href="#[44]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_2_Config
+<LI><a href="#[43]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_1_Config
+<LI><a href="#[41]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_0_Config
+</UL>
+
+<P><STRONG><a name="[8f]"></a>BSP_EmergencyStop</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_EmergencyStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_EmergencyStop &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+
+<P><STRONG><a name="[91]"></a>BSP_GetExpansionBoardHandle</STRONG> (Thumb, 70 bytes, Stack size 4 bytes, xnucleoihm02a1.o(i.BSP_GetExpansionBoardHandle))
+<BR><BR>[Stack]<UL><LI>Max Depth = 4<LI>Call Chain = BSP_GetExpansionBoardHandle
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXPBRD_ID
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+
+<P><STRONG><a name="[93]"></a>BSP_IRQ</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_IRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_IRQ &rArr; HAL_NVIC_EnableIRQ
+</UL>
+<BR>[Calls]<UL><LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_DisableIRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[96]"></a>BSP_Init</STRONG> (Thumb, 30 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = BSP_Init &rArr; BSP_L6470_Init &rArr; L6470_ResetDevice &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXPBRD_ID
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_NUCLEO_GPIO_Init
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_IRQ
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[39]"></a>BSP_L6470_0_0_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_0_0_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_0_0_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[3a]"></a>BSP_L6470_0_1_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_0_1_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_0_1_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[3b]"></a>BSP_L6470_1_0_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_1_0_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_1_0_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[3c]"></a>BSP_L6470_1_1_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_1_1_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_1_1_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[3d]"></a>BSP_L6470_2_0_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_2_0_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_2_0_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[3e]"></a>BSP_L6470_2_1_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_2_1_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_2_1_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[3f]"></a>BSP_L6470_3_0_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_3_0_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_3_0_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[40]"></a>BSP_L6470_3_1_Config</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_3_1_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = BSP_L6470_3_1_Config &rArr; L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[a5]"></a>BSP_L6470_BusySynchEventManager</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_BusySynchEventManager))
+<BR><BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+
+<P><STRONG><a name="[37]"></a>BSP_L6470_CheckStatusRegisterFlag</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_CheckStatusRegisterFlag))
+<BR><BR>[Stack]<UL><LI>Max Depth = 176<LI>Call Chain = BSP_L6470_CheckStatusRegisterFlag &rArr; L6470_CheckStatusRegisterFlag &rArr; L6470_GetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_CheckStatusRegisterFlag
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[a6]"></a>BSP_L6470_FlagEventManager</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_L6470_FlagEventManager))
+<BR><BR>[Called By]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+
+<P><STRONG><a name="[26]"></a>BSP_L6470_GetParam</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_GetParam))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = BSP_L6470_GetParam &rArr; L6470_GetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetParam
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[36]"></a>BSP_L6470_GetStatus</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_GetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_GetStatus &rArr; L6470_GetStatus &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetStatus
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[2e]"></a>BSP_L6470_GoHome</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_GoHome))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_GoHome &rArr; L6470_GoHome &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoHome
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[2f]"></a>BSP_L6470_GoMark</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_GoMark))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_GoMark &rArr; L6470_GoMark &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoMark
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[2a]"></a>BSP_L6470_GoTo</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_GoTo))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_GoTo &rArr; L6470_GoTo &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoTo
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[2b]"></a>BSP_L6470_GoToDir</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_GoToDir))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_GoToDir &rArr; L6470_GoToDir &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoToDir
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[2c]"></a>BSP_L6470_GoUntil</STRONG> (Thumb, 40 bytes, Stack size 24 bytes, xnucleoihm02a1.o(i.BSP_L6470_GoUntil))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = BSP_L6470_GoUntil &rArr; L6470_GoUntil &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoUntil
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[35]"></a>BSP_L6470_HardHiZ</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_HardHiZ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_HardHiZ &rArr; L6470_HardHiZ &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardHiZ
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[33]"></a>BSP_L6470_HardStop</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_HardStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_HardStop &rArr; L6470_HardStop &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardStop
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[98]"></a>BSP_L6470_Init</STRONG> (Thumb, 116 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_Init &rArr; L6470_ResetDevice &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetDevice
+<LI><a href="#[9a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ID
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetStatus
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXPBRD_ID
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[29]"></a>BSP_L6470_Move</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_Move))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_Move &rArr; L6470_Move &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Move
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[2d]"></a>BSP_L6470_ReleaseSW</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_ReleaseSW))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_ReleaseSW &rArr; L6470_ReleaseSW &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ReleaseSW
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[31]"></a>BSP_L6470_ResetDevice</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_ResetDevice))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_ResetDevice &rArr; L6470_ResetDevice &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetDevice
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[30]"></a>BSP_L6470_ResetPos</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_ResetPos))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_ResetPos &rArr; L6470_ResetPos &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetPos
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[27]"></a>BSP_L6470_Run</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_Run))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_Run &rArr; L6470_Run &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Run
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[25]"></a>BSP_L6470_SetParam</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_SetParam))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_SetParam &rArr; L6470_SetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SetParam
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[34]"></a>BSP_L6470_SoftHiZ</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_SoftHiZ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_SoftHiZ &rArr; L6470_SoftHiZ &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftHiZ
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[32]"></a>BSP_L6470_SoftStop</STRONG> (Thumb, 24 bytes, Stack size 8 bytes, xnucleoihm02a1.o(i.BSP_L6470_SoftStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = BSP_L6470_SoftStop &rArr; L6470_SoftStop &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftStop
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[28]"></a>BSP_L6470_StepClock</STRONG> (Thumb, 28 bytes, Stack size 16 bytes, xnucleoihm02a1.o(i.BSP_L6470_StepClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = BSP_L6470_StepClock &rArr; L6470_StepClock &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_StepClock
+<LI><a href="#[42]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Select
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[9b]"></a>BSP_LED_Init</STRONG> (Thumb, 76 bytes, Stack size 40 bytes, stm32f4xx_nucleo.o(i.BSP_LED_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = BSP_LED_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+</UL>
+
+<P><STRONG><a name="[9d]"></a>BSP_LED_Off</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f4xx_nucleo.o(i.BSP_LED_Off))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_LED_Off &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;User_LED_Blinking
+</UL>
+
+<P><STRONG><a name="[9e]"></a>BSP_LED_On</STRONG> (Thumb, 18 bytes, Stack size 0 bytes, stm32f4xx_nucleo.o(i.BSP_LED_On))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = BSP_LED_On &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;User_LED_Blinking
+</UL>
+
+<P><STRONG><a name="[97]"></a>BSP_NUCLEO_GPIO_Init</STRONG> (Thumb, 200 bytes, Stack size 48 bytes, xnucleoihm02a1.o(i.BSP_NUCLEO_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = BSP_NUCLEO_GPIO_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXPBRD_ID
+</UL>
+<BR>[Called By]<UL><LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+
+<P><STRONG><a name="[a0]"></a>BSP_PB_Init</STRONG> (Thumb, 118 bytes, Stack size 48 bytes, stm32f4xx_nucleo.o(i.BSP_PB_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = BSP_PB_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+</UL>
+
+<P><STRONG><a name="[42]"></a>BSP_Select</STRONG> (Thumb, 38 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.BSP_Select))
+<BR><BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_StepClock
+<LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_SoftStop
+<LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_SoftHiZ
+<LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_SetParam
+<LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Run
+<LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_ResetPos
+<LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_ResetDevice
+<LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_ReleaseSW
+<LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Move
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+<LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_HardStop
+<LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_HardHiZ
+<LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoUntil
+<LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoToDir
+<LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoTo
+<LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoMark
+<LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoHome
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GetStatus
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GetParam
+<LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_CheckStatusRegisterFlag
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[92]"></a>EXPBRD_ID</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, xnucleoihm02a1.o(i.EXPBRD_ID))
+<BR><BR>[Called By]<UL><LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_NUCLEO_GPIO_Init
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_GetExpansionBoardHandle
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+
+<P><STRONG><a name="[56]"></a>EXTI0_IRQHandler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.EXTI0_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = EXTI0_IRQHandler &rArr; HAL_GPIO_EXTI_IRQHandler &rArr; HAL_GPIO_EXTI_Callback &rArr; BSP_EmergencyStop &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[73]"></a>EXTI15_10_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.EXTI15_10_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = EXTI15_10_IRQHandler &rArr; HAL_GPIO_EXTI_IRQHandler &rArr; HAL_GPIO_EXTI_Callback &rArr; BSP_EmergencyStop &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[57]"></a>EXTI1_IRQHandler</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_it.o(i.EXTI1_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = EXTI1_IRQHandler &rArr; HAL_GPIO_EXTI_IRQHandler &rArr; HAL_GPIO_EXTI_Callback &rArr; BSP_EmergencyStop &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[dc]"></a>GetMotorParameterInitData</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, params.o(i.GetMotorParameterInitData))
+<BR><BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+
+<P><STRONG><a name="[a2]"></a>HAL_Delay</STRONG> (Thumb, 22 bytes, Stack size 16 bytes, stm32f4xx_hal.o(i.HAL_Delay))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;User_LED_Blinking
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+
+<P><STRONG><a name="[a4]"></a>HAL_GPIO_EXTI_Callback</STRONG> (Thumb, 28 bytes, Stack size 0 bytes, example.o(i.HAL_GPIO_EXTI_Callback))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_GPIO_EXTI_Callback &rArr; BSP_EmergencyStop &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_FlagEventManager
+<LI><a href="#[a5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_BusySynchEventManager
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EmergencyStop
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_IRQHandler
+</UL>
+
+<P><STRONG><a name="[a1]"></a>HAL_GPIO_EXTI_IRQHandler</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_EXTI_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_GPIO_EXTI_IRQHandler &rArr; HAL_GPIO_EXTI_Callback &rArr; BSP_EmergencyStop &rArr; HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_EXTI_Callback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[57]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI1_IRQHandler
+<LI><a href="#[73]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI15_10_IRQHandler
+<LI><a href="#[56]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXTI0_IRQHandler
+</UL>
+
+<P><STRONG><a name="[9c]"></a>HAL_GPIO_Init</STRONG> (Thumb, 588 bytes, Stack size 40 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_PB_Init
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_Init
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_NUCLEO_GPIO_Init
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+</UL>
+
+<P><STRONG><a name="[90]"></a>HAL_GPIO_WritePin</STRONG> (Thumb, 50 bytes, Stack size 16 bytes, stm32f4xx_hal_gpio.o(i.HAL_GPIO_WritePin))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = HAL_GPIO_WritePin
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_On
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_Off
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_Init
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+<LI><a href="#[8f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_EmergencyStop
+</UL>
+
+<P><STRONG><a name="[a3]"></a>HAL_GetTick</STRONG> (Thumb, 6 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_GetTick))
+<BR><BR>[Called By]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_WaitOnFlagUntilTimeout
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitOnFlagUntilTimeout
+</UL>
+
+<P><STRONG><a name="[e0]"></a>HAL_IncTick</STRONG> (Thumb, 10 bytes, Stack size 0 bytes, stm32f4xx_hal.o(i.HAL_IncTick))
+<BR><BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[a8]"></a>HAL_Init</STRONG> (Thumb, 48 bytes, Stack size 8 bytes, stm32f4xx_hal.o(i.HAL_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_Init &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[aa]"></a>HAL_InitTick</STRONG> (Thumb, 34 bytes, Stack size 8 bytes, stm32f4xx_hal.o(i.HAL_InitTick))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_InitTick &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+<LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[ab]"></a>HAL_MspInit</STRONG> (Thumb, 22 bytes, Stack size 8 bytes, stm32f4xx_hal_msp.o(i.HAL_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = HAL_MspInit &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+</UL>
+
+<P><STRONG><a name="[94]"></a>HAL_NVIC_DisableIRQ</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(i.HAL_NVIC_DisableIRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_NVIC_DisableIRQ
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_IRQ
+</UL>
+
+<P><STRONG><a name="[95]"></a>HAL_NVIC_EnableIRQ</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(i.HAL_NVIC_EnableIRQ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_NVIC_EnableIRQ
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_PB_Init
+<LI><a href="#[93]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_IRQ
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+</UL>
+
+<P><STRONG><a name="[9f]"></a>HAL_NVIC_SetPriority</STRONG> (Thumb, 94 bytes, Stack size 24 bytes, stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriority))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_PB_Init
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[97]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_NUCLEO_GPIO_Init
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+</UL>
+
+<P><STRONG><a name="[a9]"></a>HAL_NVIC_SetPriorityGrouping</STRONG> (Thumb, 58 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(i.HAL_NVIC_SetPriorityGrouping))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_NVIC_SetPriorityGrouping
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+</UL>
+<BR>[Called By]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[ab]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_MspInit
+</UL>
+
+<P><STRONG><a name="[af]"></a>HAL_RCC_ClockConfig</STRONG> (Thumb, 816 bytes, Stack size 32 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_ClockConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[ac]"></a>HAL_RCC_GetHCLKFreq</STRONG> (Thumb, 38 bytes, Stack size 8 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetHCLKFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 20<LI>Call Chain = HAL_RCC_GetHCLKFreq &rArr; HAL_RCC_GetSysClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetSysClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
+</UL>
+
+<P><STRONG><a name="[b1]"></a>HAL_RCC_GetPCLK1Freq</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK1Freq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = HAL_RCC_GetPCLK1Freq &rArr; HAL_RCC_GetHCLKFreq &rArr; HAL_RCC_GetSysClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+</UL>
+
+<P><STRONG><a name="[b2]"></a>HAL_RCC_GetPCLK2Freq</STRONG> (Thumb, 36 bytes, Stack size 8 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetPCLK2Freq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 28<LI>Call Chain = HAL_RCC_GetPCLK2Freq &rArr; HAL_RCC_GetHCLKFreq &rArr; HAL_RCC_GetSysClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+</UL>
+
+<P><STRONG><a name="[b0]"></a>HAL_RCC_GetSysClockFreq</STRONG> (Thumb, 120 bytes, Stack size 12 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_GetSysClockFreq))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = HAL_RCC_GetSysClockFreq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ac]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetHCLKFreq
+</UL>
+
+<P><STRONG><a name="[b3]"></a>HAL_RCC_OscConfig</STRONG> (Thumb, 1110 bytes, Stack size 40 bytes, stm32f4xx_hal_rcc.o(i.HAL_RCC_OscConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = HAL_RCC_OscConfig
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+</UL>
+
+<P><STRONG><a name="[b4]"></a>HAL_SPI_Init</STRONG> (Thumb, 362 bytes, Stack size 16 bytes, stm32f4xx_hal_spi.o(i.HAL_SPI_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[b5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+</UL>
+
+<P><STRONG><a name="[b5]"></a>HAL_SPI_MspInit</STRONG> (Thumb, 190 bytes, Stack size 48 bytes, stm32f4xx_hal_msp.o(i.HAL_SPI_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+</UL>
+
+<P><STRONG><a name="[b6]"></a>HAL_SPI_TransmitReceive</STRONG> (Thumb, 790 bytes, Stack size 40 bytes, stm32f4xx_hal_spi.o(i.HAL_SPI_TransmitReceive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[b7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+
+<P><STRONG><a name="[b9]"></a>HAL_SYSTICK_Callback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Callback))
+<BR><BR>[Called By]<UL><LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_IRQHandler
+</UL>
+
+<P><STRONG><a name="[ad]"></a>HAL_SYSTICK_Config</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_SYSTICK_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ae]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NVIC_SetPriority
+</UL>
+<BR>[Called By]<UL><LI><a href="#[aa]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_InitTick
+</UL>
+
+<P><STRONG><a name="[b8]"></a>HAL_SYSTICK_IRQHandler</STRONG> (Thumb, 8 bytes, Stack size 8 bytes, stm32f4xx_hal_cortex.o(i.HAL_SYSTICK_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = HAL_SYSTICK_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Callback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[4f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SysTick_Handler
+</UL>
+
+<P><STRONG><a name="[be]"></a>HAL_UART_ErrorCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_ErrorCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
+</UL>
+
+<P><STRONG><a name="[ba]"></a>HAL_UART_IRQHandler</STRONG> (Thumb, 218 bytes, Stack size 16 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 24<LI>Call Chain = HAL_UART_IRQHandler &rArr; UART_Receive_IT
+</UL>
+<BR>[Calls]<UL><LI><a href="#[be]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_ErrorCallback
+<LI><a href="#[bc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Transmit_IT
+<LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Receive_IT
+<LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EndTransmit_IT
+</UL>
+<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART6_IRQHandler
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
+</UL>
+
+<P><STRONG><a name="[bf]"></a>HAL_UART_Init</STRONG> (Thumb, 222 bytes, Stack size 16 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = HAL_UART_Init &rArr; HAL_UART_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+<LI><a href="#[c0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_MspInit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART6_Init
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART2_Init
+</UL>
+
+<P><STRONG><a name="[c0]"></a>HAL_UART_MspInit</STRONG> (Thumb, 192 bytes, Stack size 48 bytes, stm32f4xx_hal_msp.o(i.HAL_UART_MspInit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 88<LI>Call Chain = HAL_UART_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+</UL>
+
+<P><STRONG><a name="[c2]"></a>HAL_UART_Receive</STRONG> (Thumb, 224 bytes, Stack size 24 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_Receive))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = HAL_UART_Receive &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Called By]<UL><LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+
+<P><STRONG><a name="[e2]"></a>HAL_UART_RxCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_RxCpltCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[bb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_Receive_IT
+</UL>
+
+<P><STRONG><a name="[c4]"></a>HAL_UART_Transmit</STRONG> (Thumb, 216 bytes, Stack size 24 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_Transmit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Transmit
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+
+<P><STRONG><a name="[e1]"></a>HAL_UART_TxCpltCallback</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.HAL_UART_TxCpltCallback))
+<BR><BR>[Called By]<UL><LI><a href="#[bd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_EndTransmit_IT
+</UL>
+
+<P><STRONG><a name="[24]"></a>L6470_CheckStatusRegisterFlag</STRONG> (Thumb, 134 bytes, Stack size 16 bytes, l6470.o(i.L6470_CheckStatusRegisterFlag))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = L6470_CheckStatusRegisterFlag &rArr; L6470_GetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetParam
+</UL>
+<BR>[Called By]<UL><LI><a href="#[37]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_CheckStatusRegisterFlag
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[99]"></a>L6470_Config</STRONG> (Thumb, 502 bytes, Stack size 8 bytes, l6470.o(i.L6470_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = L6470_Config
+</UL>
+<BR>[Calls]<UL><LI><a href="#[cb]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;s_Step_2_StSlp
+<LI><a href="#[cd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;s_Step_2_FnSlpDec
+<LI><a href="#[cc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;s_Step_2_FnSlpAcc
+<LI><a href="#[cf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mA_2_StallTh
+<LI><a href="#[ce]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;mA_2_OcdTh
+<LI><a href="#[c8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_s_2_MinSpeed
+<LI><a href="#[c7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_s_2_MaxSpeed
+<LI><a href="#[ca]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_s_2_IntSpeed
+<LI><a href="#[c9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_s_2_FsSpd
+<LI><a href="#[c6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_s2_2_Dec
+<LI><a href="#[c5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;Step_s2_2_Acc
+</UL>
+<BR>[Called By]<UL><LI><a href="#[40]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_3_1_Config
+<LI><a href="#[3f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_3_0_Config
+<LI><a href="#[3e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_2_1_Config
+<LI><a href="#[3d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_2_0_Config
+<LI><a href="#[3c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_1_1_Config
+<LI><a href="#[3b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_1_0_Config
+<LI><a href="#[3a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_0_1_Config
+<LI><a href="#[39]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_0_0_Config
+</UL>
+
+<P><STRONG><a name="[d0]"></a>L6470_DaisyChainCommand</STRONG> (Thumb, 106 bytes, Stack size 40 bytes, l6470.o(i.L6470_DaisyChainCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 120<LI>Call Chain = L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_StepClock
+<LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftStop
+<LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftHiZ
+<LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SetParam
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Run
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetPos
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetDevice
+<LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ReleaseSW
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PerformPreparedApplicationCommand
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Move
+<LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardStop
+<LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardHiZ
+<LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoUntil
+<LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoToDir
+<LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoTo
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoMark
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoHome
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetStatus
+<LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetParam
+</UL>
+
+<P><STRONG><a name="[d3]"></a>L6470_ExtractReturnedData</STRONG> (Thumb, 32 bytes, Stack size 16 bytes, l6470.o(i.L6470_ExtractReturnedData))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = L6470_ExtractReturnedData
+</UL>
+<BR>[Called By]<UL><LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetStatus
+<LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetParam
+</UL>
+
+<P><STRONG><a name="[d5]"></a>L6470_FillAppCmdPkg</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_FillAppCmdPkg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 12<LI>Call Chain = L6470_FillAppCmdPkg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+
+<P><STRONG><a name="[1]"></a>L6470_GetParam</STRONG> (Thumb, 70 bytes, Stack size 24 bytes, l6470.o(i.L6470_GetParam))
+<BR><BR>[Stack]<UL><LI>Max Depth = 144<LI>Call Chain = L6470_GetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ExtractReturnedData
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[24]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_CheckStatusRegisterFlag
+<LI><a href="#[26]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GetParam
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[11]"></a>L6470_GetStatus</STRONG> (Thumb, 56 bytes, Stack size 16 bytes, l6470.o(i.L6470_GetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_GetStatus &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ExtractReturnedData
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+<LI><a href="#[36]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GetStatus
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[9]"></a>L6470_GoHome</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_GoHome))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_GoHome &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoHome
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[a]"></a>L6470_GoMark</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_GoMark))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_GoMark &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoMark
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[5]"></a>L6470_GoTo</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, l6470.o(i.L6470_GoTo))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_GoTo &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoTo
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[6]"></a>L6470_GoToDir</STRONG> (Thumb, 48 bytes, Stack size 16 bytes, l6470.o(i.L6470_GoToDir))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_GoToDir &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoToDir
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[7]"></a>L6470_GoUntil</STRONG> (Thumb, 38 bytes, Stack size 16 bytes, l6470.o(i.L6470_GoUntil))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_GoUntil &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_GoUntil
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[10]"></a>L6470_HardHiZ</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_HardHiZ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_HardHiZ &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[35]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_HardHiZ
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[e]"></a>L6470_HardStop</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_HardStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_HardStop &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[33]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_HardStop
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[9a]"></a>L6470_ID</STRONG> (Thumb, 12 bytes, Stack size 0 bytes, l6470.o(i.L6470_ID))
+<BR><BR>[Called By]<UL><LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+</UL>
+
+<P><STRONG><a name="[4]"></a>L6470_Move</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_Move))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_Move &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[29]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Move
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[38]"></a>L6470_PerformPreparedApplicationCommand</STRONG> (Thumb, 26 bytes, Stack size 8 bytes, l6470.o(i.L6470_PerformPreparedApplicationCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 128<LI>Call Chain = L6470_PerformPreparedApplicationCommand &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> xnucleoihm02a1.o(.data)
+</UL>
+<P><STRONG><a name="[d1]"></a>L6470_PrepareAppCmdPkg</STRONG> (Thumb, 54 bytes, Stack size 40 bytes, l6470.o(i.L6470_PrepareAppCmdPkg))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetAppCmdPkg
+<LI><a href="#[d5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_FillAppCmdPkg
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_StepClock
+<LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftStop
+<LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftHiZ
+<LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SetParam
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Run
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetPos
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetDevice
+<LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ReleaseSW
+<LI><a href="#[15]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareStepClock
+<LI><a href="#[1f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareSoftStop
+<LI><a href="#[21]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareSoftHiZ
+<LI><a href="#[12]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareSetParam
+<LI><a href="#[14]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareRun
+<LI><a href="#[1d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareResetPos
+<LI><a href="#[1e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareResetDevice
+<LI><a href="#[1a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareReleaseSW
+<LI><a href="#[16]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareMove
+<LI><a href="#[20]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareHardStop
+<LI><a href="#[22]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareHardHiZ
+<LI><a href="#[19]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGoUntil
+<LI><a href="#[18]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGoToDir
+<LI><a href="#[17]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGoTo
+<LI><a href="#[1c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGoMark
+<LI><a href="#[1b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGoHome
+<LI><a href="#[23]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGetStatus
+<LI><a href="#[13]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareGetParam
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Move
+<LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardStop
+<LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardHiZ
+<LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoUntil
+<LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoToDir
+<LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoTo
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoMark
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoHome
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetStatus
+<LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetParam
+</UL>
+
+<P><STRONG><a name="[d2]"></a>L6470_PrepareDaisyChainCommand</STRONG> (Thumb, 530 bytes, Stack size 36 bytes, l6470.o(i.L6470_PrepareDaisyChainCommand))
+<BR><BR>[Stack]<UL><LI>Max Depth = 36<LI>Call Chain = L6470_PrepareDaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_StepClock
+<LI><a href="#[d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftStop
+<LI><a href="#[f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SoftHiZ
+<LI><a href="#[0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_SetParam
+<LI><a href="#[2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Run
+<LI><a href="#[b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetPos
+<LI><a href="#[c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ResetDevice
+<LI><a href="#[8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_ReleaseSW
+<LI><a href="#[38]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PerformPreparedApplicationCommand
+<LI><a href="#[4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Move
+<LI><a href="#[e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardStop
+<LI><a href="#[10]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_HardHiZ
+<LI><a href="#[7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoUntil
+<LI><a href="#[6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoToDir
+<LI><a href="#[5]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoTo
+<LI><a href="#[a]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoMark
+<LI><a href="#[9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GoHome
+<LI><a href="#[11]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetStatus
+<LI><a href="#[1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_GetParam
+</UL>
+
+<P><STRONG><a name="[13]"></a>L6470_PrepareGetParam</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareGetParam))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareGetParam &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[23]"></a>L6470_PrepareGetStatus</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareGetStatus))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareGetStatus &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[1b]"></a>L6470_PrepareGoHome</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareGoHome))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareGoHome &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[1c]"></a>L6470_PrepareGoMark</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareGoMark))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareGoMark &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[17]"></a>L6470_PrepareGoTo</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareGoTo))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareGoTo &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[18]"></a>L6470_PrepareGoToDir</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, l6470.o(i.L6470_PrepareGoToDir))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = L6470_PrepareGoToDir &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[19]"></a>L6470_PrepareGoUntil</STRONG> (Thumb, 18 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareGoUntil))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareGoUntil &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[22]"></a>L6470_PrepareHardHiZ</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareHardHiZ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareHardHiZ &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[20]"></a>L6470_PrepareHardStop</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareHardStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareHardStop &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[16]"></a>L6470_PrepareMove</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, l6470.o(i.L6470_PrepareMove))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = L6470_PrepareMove &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[1a]"></a>L6470_PrepareReleaseSW</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, l6470.o(i.L6470_PrepareReleaseSW))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = L6470_PrepareReleaseSW &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[1e]"></a>L6470_PrepareResetDevice</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareResetDevice))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareResetDevice &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[1d]"></a>L6470_PrepareResetPos</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareResetPos))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareResetPos &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[14]"></a>L6470_PrepareRun</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, l6470.o(i.L6470_PrepareRun))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = L6470_PrepareRun &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[12]"></a>L6470_PrepareSetParam</STRONG> (Thumb, 20 bytes, Stack size 16 bytes, l6470.o(i.L6470_PrepareSetParam))
+<BR><BR>[Stack]<UL><LI>Max Depth = 68<LI>Call Chain = L6470_PrepareSetParam &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[21]"></a>L6470_PrepareSoftHiZ</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareSoftHiZ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareSoftHiZ &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[1f]"></a>L6470_PrepareSoftStop</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareSoftStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareSoftStop &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[15]"></a>L6470_PrepareStepClock</STRONG> (Thumb, 20 bytes, Stack size 12 bytes, l6470.o(i.L6470_PrepareStepClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = L6470_PrepareStepClock &rArr; L6470_PrepareAppCmdPkg &rArr; L6470_FillAppCmdPkg
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[8]"></a>L6470_ReleaseSW</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_ReleaseSW))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_ReleaseSW &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[2d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_ReleaseSW
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[d4]"></a>L6470_ResetAppCmdPkg</STRONG> (Thumb, 26 bytes, Stack size 0 bytes, l6470.o(i.L6470_ResetAppCmdPkg))
+<BR><BR>[Called By]<UL><LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+</UL>
+
+<P><STRONG><a name="[c]"></a>L6470_ResetDevice</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_ResetDevice))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_ResetDevice &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[31]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_ResetDevice
+<LI><a href="#[98]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Init
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[b]"></a>L6470_ResetPos</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_ResetPos))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_ResetPos &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[30]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_ResetPos
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[2]"></a>L6470_Run</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_Run))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_Run &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[27]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_Run
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[0]"></a>L6470_SetParam</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_SetParam))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_SetParam &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[25]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_SetParam
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[f]"></a>L6470_SoftHiZ</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_SoftHiZ))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_SoftHiZ &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[34]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_SoftHiZ
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[d]"></a>L6470_SoftStop</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_SoftStop))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_SoftStop &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[32]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_SoftStop
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[3]"></a>L6470_StepClock</STRONG> (Thumb, 40 bytes, Stack size 16 bytes, l6470.o(i.L6470_StepClock))
+<BR><BR>[Stack]<UL><LI>Max Depth = 136<LI>Call Chain = L6470_StepClock &rArr; L6470_DaisyChainCommand &rArr; HAL_SPI_TransmitReceive &rArr; SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareDaisyChainCommand
+<LI><a href="#[d1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_PrepareAppCmdPkg
+<LI><a href="#[d0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_DaisyChainCommand
+</UL>
+<BR>[Called By]<UL><LI><a href="#[28]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_L6470_StepClock
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> l6470.o(.data)
+</UL>
+<P><STRONG><a name="[d6]"></a>MX_GPIO_Init</STRONG> (Thumb, 20 bytes, Stack size 8 bytes, xnucleoihm02a1_interface.o(i.MX_GPIO_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 96<LI>Call Chain = MX_GPIO_Init &rArr; BSP_PB_Init &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_PB_Init
+<LI><a href="#[9b]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[d7]"></a>MX_SPI1_Init</STRONG> (Thumb, 126 bytes, Stack size 8 bytes, xnucleoihm02a1_interface.o(i.MX_SPI1_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = MX_SPI1_Init &rArr; HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI_Init
+</UL>
+
+<P><STRONG><a name="[d8]"></a>MX_SPI_Init</STRONG> (Thumb, 4 bytes, Stack size 0 bytes, xnucleoihm02a1_interface.o(i.MX_SPI_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 112<LI>Call Chain = MX_SPI_Init &rArr; MX_SPI1_Init &rArr; HAL_SPI_Init &rArr; HAL_SPI_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[d7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI1_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[d9]"></a>MX_USART2_Init</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, xnucleoihm02a1_interface.o(i.MX_USART2_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = MX_USART2_Init &rArr; HAL_UART_Init &rArr; HAL_UART_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[da]"></a>MX_USART6_Init</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, xnucleoihm02a1_interface.o(i.MX_USART6_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 104<LI>Call Chain = MX_USART6_Init &rArr; HAL_UART_Init &rArr; HAL_UART_MspInit &rArr; HAL_GPIO_Init
+</UL>
+<BR>[Calls]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[db]"></a>MicrosteppingMotor_Example_01</STRONG> (Thumb, 144 bytes, Stack size 24 bytes, example.o(i.MicrosteppingMotor_Example_01))
+<BR><BR>[Stack]<UL><LI>Max Depth = 80<LI>Call Chain = MicrosteppingMotor_Example_01 &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[92]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;EXPBRD_ID
+<LI><a href="#[91]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_GetExpansionBoardHandle
+<LI><a href="#[dc]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;GetMotorParameterInitData
+<LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Receive
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[dd]"></a>NUCLEO_Board_Init</STRONG> (Thumb, 40 bytes, Stack size 8 bytes, xnucleoihm02a1_interface.o(i.NUCLEO_Board_Init))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = NUCLEO_Board_Init &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Init
+<LI><a href="#[df]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;User_LED_Blinking
+<LI><a href="#[de]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;SystemClock_Config
+<LI><a href="#[da]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART6_Init
+<LI><a href="#[d9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_USART2_Init
+<LI><a href="#[d8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_SPI_Init
+<LI><a href="#[d6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MX_GPIO_Init
+</UL>
+<BR>[Called By]<UL><LI><a href="#[88]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;main
+</UL>
+
+<P><STRONG><a name="[c5]"></a>Step_s2_2_Acc</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.Step_s2_2_Acc))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[c6]"></a>Step_s2_2_Dec</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.Step_s2_2_Dec))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[c9]"></a>Step_s_2_FsSpd</STRONG> (Thumb, 42 bytes, Stack size 0 bytes, l6470.o(i.Step_s_2_FsSpd))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[ca]"></a>Step_s_2_IntSpeed</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.Step_s_2_IntSpeed))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[c7]"></a>Step_s_2_MaxSpeed</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.Step_s_2_MaxSpeed))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[c8]"></a>Step_s_2_MinSpeed</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.Step_s_2_MinSpeed))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[4f]"></a>SysTick_Handler</STRONG> (Thumb, 14 bytes, Stack size 8 bytes, stm32f4xx_it.o(i.SysTick_Handler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 16<LI>Call Chain = SysTick_Handler &rArr; HAL_SYSTICK_IRQHandler
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e0]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_IncTick
+<LI><a href="#[b8]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_IRQHandler
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[de]"></a>SystemClock_Config</STRONG> (Thumb, 110 bytes, Stack size 88 bytes, xnucleoihm02a1_interface.o(i.SystemClock_Config))
+<BR><BR>[Stack]<UL><LI>Max Depth = 152<LI>Call Chain = SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[89]"></a>SystemInit</STRONG> (Thumb, 66 bytes, Stack size 0 bytes, system_stm32f4xx.o(i.SystemInit))
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(.text)
+</UL>
+<P><STRONG><a name="[72]"></a>USART2_IRQHandler</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f4xx_it.o(i.USART2_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USART2_IRQHandler &rArr; USART_ITCharManager &rArr; USART_Transmit &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ITCharManager
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[83]"></a>USART6_IRQHandler</STRONG> (Thumb, 18 bytes, Stack size 8 bytes, stm32f4xx_it.o(i.USART6_IRQHandler))
+<BR><BR>[Stack]<UL><LI>Max Depth = 72<LI>Call Chain = USART6_IRQHandler &rArr; USART_ITCharManager &rArr; USART_Transmit &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
+<LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ITCharManager
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> startup_stm32f401xe.o(RESET)
+</UL>
+<P><STRONG><a name="[e3]"></a>USART_ITCharManager</STRONG> (Thumb, 102 bytes, Stack size 8 bytes, example_usart.o(i.USART_ITCharManager))
+<BR><BR>[Stack]<UL><LI>Max Depth = 64<LI>Call Chain = USART_ITCharManager &rArr; USART_Transmit &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_Transmit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[83]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART6_IRQHandler
+<LI><a href="#[72]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART2_IRQHandler
+</UL>
+
+<P><STRONG><a name="[e4]"></a>USART_Transmit</STRONG> (Thumb, 24 bytes, Stack size 0 bytes, example_usart.o(i.USART_Transmit))
+<BR><BR>[Stack]<UL><LI>Max Depth = 56<LI>Call Chain = USART_Transmit &rArr; HAL_UART_Transmit &rArr; UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
+</UL>
+<BR>[Called By]<UL><LI><a href="#[e3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;USART_ITCharManager
+</UL>
+
+<P><STRONG><a name="[df]"></a>User_LED_Blinking</STRONG> (Thumb, 44 bytes, Stack size 16 bytes, xnucleoihm02a1_interface.o(i.User_LED_Blinking))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = User_LED_Blinking &rArr; HAL_Delay
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_Delay
+<LI><a href="#[9e]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_On
+<LI><a href="#[9d]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_LED_Off
+</UL>
+<BR>[Called By]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+</UL>
+
+<P><STRONG><a name="[ef]"></a>__scatterload_copy</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_copy), UNUSED)
+
+<P><STRONG><a name="[f0]"></a>__scatterload_null</STRONG> (Thumb, 2 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_null), UNUSED)
+
+<P><STRONG><a name="[f1]"></a>__scatterload_zeroinit</STRONG> (Thumb, 14 bytes, Stack size unknown bytes, handlers.o(i.__scatterload_zeroinit), UNUSED)
+
+<P><STRONG><a name="[a7]"></a>assert_failed</STRONG> (Thumb, 2 bytes, Stack size 0 bytes, main.o(i.assert_failed))
+<BR><BR>[Called By]<UL><LI><a href="#[b4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_Init
+<LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[95]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_EnableIRQ
+<LI><a href="#[9c]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_Init
+<LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+<LI><a href="#[90]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GPIO_WritePin
+<LI><a href="#[a9]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriorityGrouping
+<LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+<LI><a href="#[b3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_OscConfig
+<LI><a href="#[af]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_ClockConfig
+<LI><a href="#[94]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_DisableIRQ
+<LI><a href="#[c1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;UART_SetConfig
+</UL>
+
+<P><STRONG><a name="[ce]"></a>mA_2_OcdTh</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, l6470.o(i.mA_2_OcdTh))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[cf]"></a>mA_2_StallTh</STRONG> (Thumb, 72 bytes, Stack size 0 bytes, l6470.o(i.mA_2_StallTh))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[88]"></a>main</STRONG> (Thumb, 14 bytes, Stack size 0 bytes, main.o(i.main))
+<BR><BR>[Stack]<UL><LI>Max Depth = 160<LI>Call Chain = main &rArr; NUCLEO_Board_Init &rArr; SystemClock_Config &rArr; HAL_RCC_ClockConfig &rArr; HAL_InitTick &rArr; HAL_NVIC_SetPriority
+</UL>
+<BR>[Calls]<UL><LI><a href="#[dd]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;NUCLEO_Board_Init
+<LI><a href="#[96]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;BSP_Init
+<LI><a href="#[db]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;MicrosteppingMotor_Example_01
+</UL>
+<BR>[Address Reference Count : 1]<UL><LI> entry9a.o(.ARM.Collect$$$$0000000B)
+</UL>
+<P><STRONG><a name="[cc]"></a>s_Step_2_FnSlpAcc</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.s_Step_2_FnSlpAcc))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[cd]"></a>s_Step_2_FnSlpDec</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.s_Step_2_FnSlpDec))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+
+<P><STRONG><a name="[cb]"></a>s_Step_2_StSlp</STRONG> (Thumb, 34 bytes, Stack size 0 bytes, l6470.o(i.s_Step_2_StSlp))
+<BR><BR>[Called By]<UL><LI><a href="#[99]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;L6470_Config
+</UL>
+<P>
+<H3>
+Local Symbols
+</H3>
+<P><STRONG><a name="[ae]"></a>NVIC_SetPriority</STRONG> (Thumb, 32 bytes, Stack size 0 bytes, stm32f4xx_hal_cortex.o(i.NVIC_SetPriority))
+<BR><BR>[Called By]<UL><LI><a href="#[9f]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_NVIC_SetPriority
+<LI><a href="#[ad]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SYSTICK_Config
+</UL>
+
+<P><STRONG><a name="[b7]"></a>SPI_WaitOnFlagUntilTimeout</STRONG> (Thumb, 214 bytes, Stack size 40 bytes, stm32f4xx_hal_spi.o(i.SPI_WaitOnFlagUntilTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 40<LI>Call Chain = SPI_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[b6]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_SPI_TransmitReceive
+</UL>
+
+<P><STRONG><a name="[bd]"></a>UART_EndTransmit_IT</STRONG> (Thumb, 62 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i.UART_EndTransmit_IT))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART_EndTransmit_IT
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_TxCpltCallback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
+</UL>
+
+<P><STRONG><a name="[bb]"></a>UART_Receive_IT</STRONG> (Thumb, 176 bytes, Stack size 8 bytes, stm32f4xx_hal_uart.o(i.UART_Receive_IT))
+<BR><BR>[Stack]<UL><LI>Max Depth = 8<LI>Call Chain = UART_Receive_IT
+</UL>
+<BR>[Calls]<UL><LI><a href="#[e2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_RxCpltCallback
+</UL>
+<BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
+</UL>
+
+<P><STRONG><a name="[c1]"></a>UART_SetConfig</STRONG> (Thumb, 574 bytes, Stack size 24 bytes, stm32f4xx_hal_uart.o(i.UART_SetConfig))
+<BR><BR>[Stack]<UL><LI>Max Depth = 52<LI>Call Chain = UART_SetConfig &rArr; HAL_RCC_GetPCLK2Freq &rArr; HAL_RCC_GetHCLKFreq &rArr; HAL_RCC_GetSysClockFreq
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a7]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;assert_failed
+<LI><a href="#[b2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK2Freq
+<LI><a href="#[b1]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_RCC_GetPCLK1Freq
+</UL>
+<BR>[Called By]<UL><LI><a href="#[bf]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Init
+</UL>
+
+<P><STRONG><a name="[bc]"></a>UART_Transmit_IT</STRONG> (Thumb, 106 bytes, Stack size 0 bytes, stm32f4xx_hal_uart.o(i.UART_Transmit_IT))
+<BR><BR>[Called By]<UL><LI><a href="#[ba]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_IRQHandler
+</UL>
+
+<P><STRONG><a name="[c3]"></a>UART_WaitOnFlagUntilTimeout</STRONG> (Thumb, 198 bytes, Stack size 32 bytes, stm32f4xx_hal_uart.o(i.UART_WaitOnFlagUntilTimeout))
+<BR><BR>[Stack]<UL><LI>Max Depth = 32<LI>Call Chain = UART_WaitOnFlagUntilTimeout
+</UL>
+<BR>[Calls]<UL><LI><a href="#[a3]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_GetTick
+</UL>
+<BR>[Called By]<UL><LI><a href="#[c4]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Transmit
+<LI><a href="#[c2]">&gt;&gt;</a>&nbsp;&nbsp;&nbsp;HAL_UART_Receive
+</UL>
+<P>
+<H3>
+Undefined Global Symbols
+</H3><HR></body></html>

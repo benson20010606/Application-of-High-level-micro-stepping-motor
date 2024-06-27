@@ -1,0 +1,105 @@
+<html>
+<body>
+<pre>
+<h1>猩ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Chen Yu-Xian, NYUST, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\02A1 改\C#測試\SPN2(uart6)hmi初步功能 - 複製\Projects\STM32F401RE-Nucleo\Examples\MotionControl\uart6啟動測試\MDK-ARM\Project.uvprojx
+Project File Date:  05/03/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'X-CUBE-SPN2_F401'
+compiling example.c...
+../Src/example.c(51): warning:  #177-D: variable "c"  was declared but never referenced
+  		uint8_t c=0,b=0;
+../Src/example.c(51): warning:  #177-D: variable "b"  was declared but never referenced
+  		uint8_t c=0,b=0;
+../Src/example.c(53): warning:  #177-D: variable "Step"  was declared but never referenced
+  		uint32_t Step;
+../Src/example.c(57): warning:  #177-D: variable "id"  was declared but never referenced
+  		uint8_t id;
+../Src/example.c(218): warning:  #177-D: variable "c"  was declared but never referenced
+  		 uint8_t c=1,b=0;
+../Src/example.c(218): warning:  #177-D: variable "b"  was declared but never referenced
+  		 uint8_t c=1,b=0;
+../Src/example.c(220): warning:  #177-D: variable "Step"  was declared but never referenced
+  		uint32_t Step;
+../Src/example.c(226): warning:  #177-D: variable "id"  was declared but never referenced
+  		uint8_t id;
+../Src/example.c(446): warning:  #188-D: enumerated type mixed with another type
+  				StepperMotorBoardHandle->Command->SetParam(board, device,0x2,mark);
+../Src/example.c(407): warning:  #177-D: variable "Step"  was declared but never referenced
+  		uint32_t Step;
+../Src/example.c(412): warning:  #177-D: variable "id"  was declared but never referenced
+  		uint8_t id;
+../Src/example.c(603): warning:  #177-D: variable "position"  was declared but never referenced
+  			int position;
+../Src/example.c(604): warning:  #177-D: variable "h"  was declared but never referenced
+  			int h;
+../Src/example.c(605): warning:  #177-D: variable "step"  was declared but never referenced
+  			int step,step_s;
+../Src/example.c(605): warning:  #177-D: variable "step_s"  was declared but never referenced
+  			int step,step_s;
+../Src/example.c(606): warning:  #177-D: variable "values"  was declared but never referenced
+  			double values,speed,acc,Speed;
+../Src/example.c(606): warning:  #177-D: variable "speed"  was declared but never referenced
+  			double values,speed,acc,Speed;
+../Src/example.c(606): warning:  #177-D: variable "acc"  was declared but never referenced
+  			double values,speed,acc,Speed;
+../Src/example.c(606): warning:  #177-D: variable "Speed"  was declared but never referenced
+  			double values,speed,acc,Speed;
+../Src/example.c(559): warning:  #177-D: variable "value"  was declared but never referenced
+  			uint32_t  value;
+../Src/example.c(560): warning:  #177-D: variable "Status"  was declared but never referenced
+  			uint16_t  Status;
+../Src/example.c: 21 warnings, 0 errors
+linking...
+Program Size: Code=13456 RO-data=2320 RW-data=948 ZI-data=1644  
+After Build - User command #1: fromelf --bin --output=.\..\Binary\X-CUBE-SPN2_F401.bin X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf
+After Build - User command #2: fromelf --i32combined --output=.\..\Binary\X-CUBE-SPN2_F401.hex X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf
+"X-CUBE-SPN2_F401\Exe\X-CUBE-SPN2_F401.axf" - 0 Error(s), 21 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.8.0.pack
+                ARM.CMSIS.5.8.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.5.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.2.15.0.pack
+                Keil.STM32F4xx_DFP.2.15.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_X-CUBE-SPN2_F401
+  C:\Users\user\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+  C:\Users\user\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.5.0
+      Include file:  CMSIS\Core\Include\tz_context.h
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
