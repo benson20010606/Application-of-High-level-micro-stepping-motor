@@ -4,7 +4,7 @@
 **The controller program is modified based on the STMicroelectronics sample program.**
 
 ## Inintroduce
-    This research project uses the STM32F401RE development board, the IHM02A1 motor driver board, and C# as the development platform. The program is flashed onto the STM32F401RE and an operation interface is written in C# to achieve Human-Machine Interface (HMI) implementation. The operation interface allows control of the stepper motor. The actions controlled by the user are encoded and transmitted to the STM32F401RE via UART. The development board then decodes the commands and issues them to the driver board via SPI, enabling multi-axis stepper motor control.  
+This research project uses the STM32F401RE development board, the IHM02A1 motor driver board, and C# as the development platform. The program is flashed onto the STM32F401RE and an operation interface is written in C# to achieve Human-Machine Interface (HMI) implementation. The operation interface allows control of the stepper motor. The actions controlled by the user are encoded and transmitted to the STM32F401RE via UART. The development board then decodes the commands and issues them to the driver board via SPI, enabling multi-axis stepper motor control.  
 
 ## HARDWARE
 ### STM32 F401RE
