@@ -28,3 +28,28 @@ In this project, the ILQ620GB optocoupler is used as an isolation for limit swit
 
 ### Stepper motor
 A stepper motor is a type of brushless DC electric motor characterized by a stator and rotor with teeth-like projections that interlock. It rotates in discrete steps by switching the direction of current in the stator coils. Stepper motors operate using open-loop control and are triggered by pulse signals to switch currents. They do not require feedback devices for position or speed detection. This allows stepper motors to rotate precisely in proportion to the pulse signals, achieving accurate position and speed control with high stability.
+
+## Introduction to User Interface and Its Functions
+![image](fig/HMI0.png)
+
+### 1.UART connect
+
+### 2.Motor Velocity plot
+
+### 3.Reading and Changing Parameters
+
+### 4.Emergency stop
+
+### 5.status retrieval
+
+### 6.motion control
+#### 6.0 motion control
+
+#### 6.1 Multi-axis simultaneous motion control
+
+#### 6.2 Reset 
+
+### 7.LIMIT  control
+
+
+### 8.abnormal state resolution
