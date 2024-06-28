@@ -3,7 +3,7 @@
 **This project was jointly completed by @benson20010606 and  Zhiqiang Wang**  
 **The controller program is modified based on the STMicroelectronics sample program.**
 
-## Inintroduce
+## Introduce
 This research project uses the STM32F401RE development board, the IHM02A1 motor driver board, and C# as the development platform. The program is flashed onto the STM32F401RE and an operation interface is written in C# to achieve Human-Machine Interface (HMI) implementation. The operation interface allows control of the stepper motor. The actions controlled by the user are encoded and transmitted to the STM32F401RE via UART. The development board then decodes the commands and issues them to the driver board via SPI, enabling multi-axis stepper motor control.  
 
 ## HARDWARE
@@ -158,3 +158,9 @@ When an abnormal state occurs, the motor will stop forcibly. After troubleshooti
 
 
 ## References
+   1.Fully integrated microstepping motor driver with motion engine and SPI.   
+   https://www.st.com/en/motor-drivers/l6470.html  
+   2.Two axis stepper motor driver expansion board based on the L6470 for STM32 Nucleo.  
+   https://www.st.com/en/ecosystems/x-nucleo-ihm02a1.html  
+   3.STM32 Nucleo-64 development board with STM32F401RE MCU, supports Arduino and ST morpho connectivity.    
+   https://www.st.com/en/evaluation-tools/nucleo-f401re.html
