@@ -7,7 +7,7 @@
 This research project uses the STM32F401RE development board, the IHM02A1 motor driver board, and C# as the development platform. The program is flashed onto the STM32F401RE and an operation interface is written in C# to achieve Human-Machine Interface (HMI) implementation. The operation interface allows control of the stepper motor. The actions controlled by the user are encoded and transmitted to the STM32F401RE via UART. The development board then decodes the commands and issues them to the driver board via SPI, enabling multi-axis stepper motor control.  
 
 ## HARDWARE
-### STM32 F401RE
+### NUCLEO-F401RE
 Equipped with mbed functionality and supporting Arduino interfaces, it also provides ST Morpho extension headers, which can connect to all peripheral external devices of the microcontroller. The Arduino connectivity enables this development board to utilize Arduino expansion features, allowing developers to easily and quickly add special functionalities. This development board also provides comprehensive support for the STM32 series, enabling developers to flexibly prototype designs and dynamically fine-tune software and hardware at various stages of development. The development board integrates ease of use, flexibility, connectivity, and mainstream tool resources, making it one of the ideal development boards for developers.
 
 ### STM32 F401RCT6 CORE BOARD
