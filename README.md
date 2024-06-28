@@ -74,10 +74,42 @@ A stepper motor is a type of brushless DC electric motor characterized by a stat
 ![image](fig/HMI0.png)
 
 ### 1.UART connect
+Set the baud rate, data bits, stop bits, parity, and COM port for communication with a microcontroller board.  
 
 ### 2.Motor Velocity plot
+Real-time reading of the speed information of each axis motor from the registers and visualizing it into a chart.  
 
 ### 3.Reading and Changing Parameters
+Read data from the registers through commands.
+#### ABS_POS
+The ABS_POS register contains the current motor absolute position in agreement with the selected step mode ; the stored value unit is equal to the selected step mode. The value is in 2's complement format and it ranges from $-2^{21}  to  +2^{21}-1$.  
+#### ACC
+Set acceleration (unit: $step/s^2$),after converting the format(unit: $step/tick^2$), transfer it into the  ACC register. 
+$$\left[ step/s^2 \right] = \frac{ACC \cdot 2^{-40 }}{tick^2}$$
+
+#### DEC
+Set deceleration (unit: $step/s^2$),after converting the format(unit: $step/tick^2$), transfer it into the  DEC register.  
+
+$$\left[ step/s^2 \right] = \frac{DEC \cdot 2^{-40 }}{tick^2}$$
+
+#### SPEED
+read the current speed( $step/s$) Form SPEED $step/tick$ register.  
+$$\left[ step/s \right] = \frac{SPEED\cdot 2^{-28 }}{tick}$$
+#### MAX_SPEED
+Set the speed maximum limit .  
+
+#### MIN_SPEED
+Set the speed minimum limit .  
+
+#### STEP_MODE
+
+Selects one of eight possible stepping modes: Full-step、Half-step、1/4 microstep、1/8 microstep、1/16 microstep、1/32 microstep、1/64 microstep、1/128 microstep.
+ 
+#### STATUS
+
+
+
+
 
 ### 4.Emergency stop
 
@@ -109,3 +141,8 @@ A stepper motor is a type of brushless DC electric motor characterized by a stat
 </div>
 
 ### 8.abnormal state resolution
+
+
+
+
+## References
