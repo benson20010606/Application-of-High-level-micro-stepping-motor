@@ -108,16 +108,27 @@ Selects one of eight possible stepping modes: Full-step、Half-step、1/4 micros
 #### STATUS
 
 
+Based on the status register , you can obtain information about the current operation of the motor to facilitate troubleshooting.
 
-
+![image](fig/Status.png)
 
 ### 4.Emergency stop
+Force the motor to stop.
 
 ### 5.status retrieval
+Detailed information corresponding to the status register.
+
 
 ### 6.motion control
 
-#### 6.0 motion control
+#### 6.0 Single-axis motion control
+
+Run: Sets the target speed and the motor direction
+Move:Makes N_STEP (micro)steps in DIR direction
+Goto:Brings motor into ABS_POS position (minimum path)
+GoHome:Brings the motor into HOME position
+Stop:Stops motor with different status
+Home Reset:Perform homing using the optical limit switch.
 
 #### 6.1 Multi-axis simultaneous motion control
 
@@ -127,14 +138,15 @@ Selects one of eight possible stepping modes: Full-step、Half-step、1/4 micros
 
 
 #### 6.2 Reset 
-
+Set the homing direction and position.
 <div style="text-align: center;">
   <img src="fig/Reset setup.png" />  
 </div>
 
+
+
 ### 7.LIMIT  control
-
-
+Use the optical limit switch and interrupts to prevent the motor from exceeding its operating range.
 
 <div style="text-align: center;">
   <img src="fig/Limit setup.png" />  
@@ -142,7 +154,7 @@ Selects one of eight possible stepping modes: Full-step、Half-step、1/4 micros
 
 ### 8.abnormal state resolution
 
-
+When an abnormal state occurs, the motor will stop forcibly. After troubleshooting based on the status, use this function to confirm that the issue has been resolved and resume normal operation.  
 
 
 ## References
