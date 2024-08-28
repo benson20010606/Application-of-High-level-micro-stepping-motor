@@ -1,0 +1,59 @@
+Altium Designer Pick and Place Locations
+C:\Users\ASUS\Desktop\新增資料夾\PCB_Project\Project Outputs for PCB_Project\Pick Place for PCB_layer2.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/09/22
+Time:       20:27
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator   Comment    Layer       Footprint      Center-X(mil) Center-Y(mil) Rotation Description                                                                                            
+U            RED_LED    TopLayer    0603           4800.000      805.000       180      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+Z            RED_LED    TopLayer    0603           4800.000      895.000       180      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+Y            RED_LED    TopLayer    0603           4800.000      975.000       360      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+X            RED_LED    TopLayer    0603           4800.000      1065.000      360      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+P6           Header 4   TopLayer    HDR1X4         4535.000      3740.000      90       Header, 4-Pin                                                                                          
+CNY74-4H_2   Comment    BottomLayer DIL16          2225.000      515.000       0                                                                                                               
+R1_2         Comment    BottomLayer 0603           1920.000      265.000       0                                                                                                               
+R2_2         Comment    BottomLayer 0603           1920.000      365.000       0                                                                                                               
+R4_2         Comment    BottomLayer 0603           1925.000      765.000       0                                                                                                               
+R3_2         Comment    BottomLayer 0603           1920.000      670.000       0                                                                                                               
+R6_2         Comment    BottomLayer 0603           2525.000      365.000       0                                                                                                               
+R5_2         Comment    BottomLayer 0603           2525.000      165.000       0                                                                                                               
+R7_2         Comment    BottomLayer 0603           2525.000      565.000       0                                                                                                               
+R8_2         Comment    BottomLayer 0603           2525.000      765.000       0                                                                                                               
+CNY74-4H_1   Comment    BottomLayer DIL16          2195.000      1610.000      360                                                                                                             
+R1_1         Comment    BottomLayer 0603           1890.000      1360.000      360                                                                                                             
+R2_1         Comment    BottomLayer 0603           1890.000      1460.000      360                                                                                                             
+R4_1         Comment    BottomLayer 0603           1895.000      1860.000      360                                                                                                             
+R3_1         Comment    BottomLayer 0603           1890.000      1765.000      360                                                                                                             
+R6_1         Comment    BottomLayer 0603           2505.000      1460.000      360                                                                                                             
+R5_1         Comment    BottomLayer 0603           2510.000      1260.000      360                                                                                                             
+R7_1         Comment    BottomLayer 0603           2505.000      1660.000      360                                                                                                             
+R8_1         Comment    BottomLayer 0603           2500.000      1860.000      360                                                                                                             
+R8           Comment    BottomLayer 0603           2505.000      2935.000      0                                                                                                               
+R7           Comment    BottomLayer 0603           2505.000      2735.000      0                                                                                                               
+R5           Comment    BottomLayer 0603           2500.000      2335.000      0                                                                                                               
+R6           Comment    BottomLayer 0603           2505.000      2535.000      0                                                                                                               
+R3           Comment    BottomLayer 0603           1890.000      2840.000      0                                                                                                               
+R4           Comment    BottomLayer 0603           1895.000      2935.000      0                                                                                                               
+R2           Comment    BottomLayer 0603           1890.000      2535.000      0                                                                                                               
+R1           Comment    BottomLayer 0603           1890.000      2435.000      0                                                                                                               
+CNY74-4H     Comment    BottomLayer DIL16          2195.000      2685.000      0                                                                                                               
+R13          620        TopLayer    0603           3718.000      3841.000      360      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R12          39k        TopLayer    0603           3764.500      3685.000      90       Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R11          620        TopLayer    0603           3912.000      3840.567      360      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R10          39k        TopLayer    0603           3960.000      3684.000      90       Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R9           620        TopLayer    0603           3569.000      3875.000      90       Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+D12          RED_LED    TopLayer    0603           3666.750      3685.000      90       Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+D11          YELLOW_LED TopLayer    0603           3862.250      3685.000      90       Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+D9           ORANGE_LED TopLayer    0603           3569.000      3683.000      90       Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+Limit-Home   Comment    TopLayer    TE_1-2342078-4 1190.000      1340.000      90                                                                                                              
+Z            Comment    TopLayer    TE_1776113-4   2950.000      1470.000      90                                                                                                              
+U            Comment    TopLayer    TE_1776113-4   2950.000      2725.000      90                                                                                                              
+Y            Comment    TopLayer    TE_1776113-4   3785.000      2725.000      90                                                                                                              
+X            Comment    TopLayer    TE_1776113-4   3785.000      1470.000      90                                                                                                              
+Designator14 Comment    TopLayer    HDR2X22        5014.000      2339.000      90                                                                                                              

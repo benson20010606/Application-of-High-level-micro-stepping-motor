@@ -1,0 +1,94 @@
+Altium Designer Pick and Place Locations
+C:\Users\ASUS\Desktop\新增資料夾\PCB_Project\Project Outputs for PCB_Project\Pick Place for PCB_layer1.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       05/09/22
+Time:       20:27
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+Designator   Comment   Layer    Footprint          Center-X(mil) Center-Y(mil) Rotation Description                                                                                            
+U4           L6470PD   TopLayer SOP65P1420X360-37N 3778.764      2374.071      180      Bipolar Motor Driver DMOS SPI PowerSSO-36                                                              
+U3           L6470PD   TopLayer SOP65P1420X360-37N 3782.764      896.205       180      Bipolar Motor Driver DMOS SPI PowerSSO-36                                                              
+U2           L6470PD   TopLayer SOP65P1420X360-37N 1886.205      1502.236      90       Bipolar Motor Driver DMOS SPI PowerSSO-36                                                              
+U1           L6470PD   TopLayer SOP65P1420X360-37N 470.339       1498.236      90       Bipolar Motor Driver DMOS SPI PowerSSO-36                                                              
+R8           39k       TopLayer 0603               4361.000      2088.000      270      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R7           560       TopLayer 0603               4424.535      2395.197      270      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R6           39k       TopLayer 0603               4399.000      622.000       270      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R5           560       TopLayer 0603               4428.535      917.331       270      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R4           39k       TopLayer 0603               1592.000      913.000       180      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R3           560       TopLayer 0603               1907.331      856.465       180      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R2           39k       TopLayer 0603               190.000       900.000       180      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+R1           560       TopLayer 0603               491.465       852.465       180      Fixed Resistor, Metal Glaze/thick Film, 0.2W, 1000ohm, 50V, 1% +/-Tol, 200ppm/Cel, Surface Mount, 0603 
+D10          SMBJ48A   TopLayer SMB                265.000       2885.000      360      93.6V Clamp 6.5A Ipp Tvs Diode Surface Mount DO-214AA (SMBJ)                                           
+D8           BAV99     TopLayer DIO_BAV99          4204.937      2850.504      90       Diode Array 1 Pair Series Connection Standard 100V 215mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3  
+D7           GREEN_LED TopLayer 0603               4195.535      3066.197      270      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+D6           BAV99     TopLayer DIO_BAV99          4207.402      1374.173      90       Diode Array 1 Pair Series Connection Standard 100V 215mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3  
+D5           GREEN_LED TopLayer 0603               4198.000      1589.866      270      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+D4           BAV99     TopLayer DIO_BAV99          2362.638      1076.063      0        Diode Array 1 Pair Series Connection Standard 100V 215mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3  
+D3           GREEN_LED TopLayer 0603               2579.866      1087.000      180      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+D2           BAV99     TopLayer DIO_BAV99          948.307       1073.598      360      Diode Array 1 Pair Series Connection Standard 100V 215mA (DC) Surface Mount TO-236-3, SC-59, SOT-23-3  
+D1           GREEN_LED TopLayer 0603               1164.000      1083.000      180      Orange 605nm LED Indication - Discrete 2V 0603 (1608 Metric)                                           
+C52          100pF     TopLayer CAPC1608X90        3283.000      2199.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C51          100pF     TopLayer CAPC1608X90        287.000       2005.465      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C50          100pF     TopLayer CAPC1608X90        3282.000      2328.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C49          100pF     TopLayer CAPC1608X90        417.000       2005.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C48          220nF     TopLayer CAPC1608X90        4205.000      2704.000      360      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C47          10nF      TopLayer CAPC1608X90        4315.000      2554.197      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C46          100uF     TopLayer CAP_EEEFK1J101P    3780.000      3021.732      270      100AμF 63V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105A°C                        
+C45          100nF     TopLayer CAPC1608X90        4335.819      2277.732      360      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C44          100nF     TopLayer CAPC1608X90        4302.000      2436.732      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C43          1nF       TopLayer CAPC1608X90        4270.000      2085.000      270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C42          10uF      TopLayer CAPC2012X145N      4238.638      2361.276      360      CERAMIC CAPACITOR, 10UF, 6.3V, X5R, 10%, 0805, FULL REEL                                               
+C41          100nF     TopLayer CAPC1608X90        3358.465      2086.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C40          47uF      TopLayer CAPMP3216X180N     3333.535      2925.197      90       47AμF Molded Tantalum Capacitors 6.3V 1206 (3216 Metric) 1.6Ohm                                        
+C39          100nF     TopLayer CAPC1608X90        3343.000      2585.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C38          100nF     TopLayer CAPC1608X90        4187.000      2089.866      270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C37          100nF     TopLayer CAPC1608X90        3344.000      2473.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C36          220nF     TopLayer CAPC1608X90        4205.000      1230.000      360      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C35          10nF      TopLayer CAPC1608X90        4319.000      1076.331      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C34          100nF     TopLayer CAPC1608X90        4339.819      799.866       360      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C33          100uF     TopLayer CAP_EEEFK1J101P    3784.000      1543.866      270      100AμF 63V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105A°C                        
+C32          1nF       TopLayer CAPC1608X90        4265.000      602.000       270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C31          100nF     TopLayer CAPC1608X90        4306.000      958.866       180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C30          10uF      TopLayer CAPC2012X145N      4242.638      883.409       360      CERAMIC CAPACITOR, 10UF, 6.3V, X5R, 10%, 0805, FULL REEL                                               
+C29          47uF      TopLayer CAPMP3216X180N     3336.000      1448.866      90       47AμF Molded Tantalum Capacitors 6.3V 1206 (3216 Metric) 1.6Ohm                                        
+C28          100nF     TopLayer CAPC1608X90        3347.000      608.000       180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C27          100nF     TopLayer CAPC1608X90        3345.000      1086.866      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C26          100nF     TopLayer CAPC1608X90        3341.000      985.772       180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C25          100nF     TopLayer CAPC1608X90        4191.000      612.000       270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C24          220nF     TopLayer CAPC1608X90        2183.866      1080.000      270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C23          10nF      TopLayer CAPC1608X90        2066.331      966.000       360      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C22          100uF     TopLayer CAP_EEEFK1J101P    2533.866      1501.000      180      100AμF 63V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105A°C                        
+C21          100nF     TopLayer CAPC1608X90        1789.866      945.181       270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C20          1nF       TopLayer CAPC1608X90        1592.000      1020.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C19          100nF     TopLayer CAPC1608X90        1948.866      979.000       90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C18          10uF      TopLayer CAPC2012X145N      1873.409      1042.362      270      CERAMIC CAPACITOR, 10UF, 6.3V, X5R, 10%, 0805, FULL REEL                                               
+C17          100nF     TopLayer CAPC1608X90        1627.000      1940.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C16          47uF      TopLayer CAPMP3216X180N     2438.866      1949.000      360      47AμF Molded Tantalum Capacitors 6.3V 1206 (3216 Metric) 1.6Ohm                                        
+C15          100nF     TopLayer CAPC1608X90        2103.000      1940.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C14          100nF     TopLayer CAPC1608X90        1976.866      1943.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C13          100nF     TopLayer CAPC1608X90        1589.000      1097.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C12          220nF     TopLayer CAPC1608X90        800.000       1076.000      270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C11          10nF      TopLayer CAPC1608X90        650.465       962.000       360      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C10          100uF     TopLayer CAP_EEEFK1J101P    1118.000      1497.000      180      100AμF 63V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 105A°C                        
+C9           100nF     TopLayer CAPC1608X90        454.000       1046.465      270      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C8           1nF       TopLayer CAPC1608X90        190.000       990.000       180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C7           100nF     TopLayer CAPC1608X90        533.000       975.000       90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C6           10uF      TopLayer CAPC2012X145N      374.000       940.000       270      CERAMIC CAPACITOR, 10UF, 6.3V, X5R, 10%, 0805, FULL REEL                                               
+C5           47uF      TopLayer CAPMP3216X180N     835.000       2019.000      270      47AμF Molded Tantalum Capacitors 6.3V 1206 (3216 Metric) 1.6Ohm                                        
+C4           100nF     TopLayer CAPC1608X90        183.000       1932.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C3           100nF     TopLayer CAPC1608X90        683.000       1939.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C2           100nF     TopLayer CAPC1608X90        569.000       1939.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C1           100nF     TopLayer CAPC1608X90        195.000       1080.000      180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C53          100pF     TopLayer CAPC1608X90        1846.000      2006.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C54          100pF     TopLayer CAPC1608X90        3288.000      844.000       180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C55          100pF     TopLayer CAPC1608X90        1730.000      1988.000      90       0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+C56          100pF     TopLayer CAPC1608X90        3291.000      717.000       180      0603 0.018 uF 25 V A±5% Tolerance X7R Multilayer Ceramic Capacitor                                     
+Designator14 Comment   TopLayer HDR2X22            5014.000      2339.000      90                                                                                                              
+Designator27 Comment   TopLayer HDR2X15            1015.000      3774.000      180                                                                                                             
+Designator28 Comment   TopLayer HDR2X15            1015.000      2574.000      180                                                                                                             
+Designator30 Comment   TopLayer TE_1776113-2       155.000       2290.000      90                                                                                                              

@@ -157,6 +157,32 @@ Use the optical limit switch and interrupts to prevent the motor from exceeding 
 When an abnormal state occurs, the motor will stop forcibly. After troubleshooting based on the status, use this function to confirm that the issue has been resolved and resume normal operation.  
 
 
+## Circuit Test
+### Two-axis circuit testing
+Before designing the circuit using Altium Designer, some functions of the original driver board were not used. After research and discussion, it was decided to remove certain circuits to simplify both the circuitry and cost. The driving circuit was then soldered using a phenolic board and an IC adapter board, followed by testing.
+
+After soldering the circuit, it was discovered that an abnormal indicator light on the driver board occasionally lit up. By checking the abnormal status table through the C# interface, it was found that there was insufficient power supply. Upon inspection, it was discovered that there was poor contact at the power supply connection of the soldered circuit. After correcting this issue, all functions were able to be used normally, and it was possible to perform multi-axis control in conjunction with the original driver board.  
+
+<div style="text-align: center;">
+  <img src="fig/兩軸電木板.jpg" />  
+</div>
+
+### Four-axis circuit 
+
+
+or this project, the PCB for the four-axis stepper motor driver utilizes the Gerber files from the X-NUCLEO-IHM02A1 as a reference for design. The control circuit incorporates the STM32F401RCT6 CORE BOARD into the design of the lower board and integrates it with the stepper motor driving circuit. Additionally, the configuration of the ARCUS four-axis motor axis card's upper and lower boards is referenced. The stepper motor output lines and limit switch connections, as well as status and power indicator lights, are routed from the upper board. The upper and lower boards are connected using pin headers and sockets.
+
+Due to the use of a milling machine for PCB engraving, vias in the TOP layer and BOTTOM layer require soldering to ensure continuity. Special planning was done for the via design to avoid potential issues with the circuit's functionality later on.
+
+Since the limit switch's power and trigger voltage requirements do not match the system's power supply, optical isolation is needed for electrical isolation. Therefore, an optical isolation circuit was added to the upper board to ensure the proper functionality of the limit switch.
+
+<div style="text-align: center;">
+  <img src="fig/電路板上版.jpg" />  
+  <img src="fig/電路板下版.jpg" />  
+</div>
+
+
+
 ## References
    1.Fully integrated microstepping motor driver with motion engine and SPI.   
    https://www.st.com/en/motor-drivers/l6470.html  
