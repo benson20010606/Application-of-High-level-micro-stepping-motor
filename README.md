@@ -1,26 +1,59 @@
 # Application of High-level micro-stepping motor
 ## Important matters
 **This project was jointly completed by @benson20010606 and  Zhiqiang Wang**  
-**The controller program is modified based on the STMicroelectronics sample program.**
-
-## Introduce
-This research project uses the STM32F401RE development board, the IHM02A1 motor driver board, and C# as the development platform. The program is flashed onto the STM32F401RE and an operation interface is written in C# to achieve Human-Machine Interface (HMI) implementation. The operation interface allows control of the stepper motor. The actions controlled by the user are encoded and transmitted to the STM32F401RE via UART. The development board then decodes the commands and issues them to the driver board via SPI, enabling multi-axis stepper motor control.  
-
-## HARDWARE
-### NUCLEO-F401RE
 
 
-   
-Equipped with mbed functionality and supporting Arduino interfaces, it also provides ST Morpho extension headers, which can connect to all peripheral external devices of the microcontroller. The Arduino connectivity enables this development board to utilize Arduino expansion features, allowing developers to easily and quickly add special functionalities. This development board also provides comprehensive support for the STM32 series, enabling developers to flexibly prototype designs and dynamically fine-tune software and hardware at various stages of development. The development board integrates ease of use, flexibility, connectivity, and mainstream tool resources, making it one of the ideal development boards for developers.  
+## Project Overview
+
+This project implements a multi-axis micro-stepping motor control system using STM32 microcontrollers and STMicroelectronics motor driver solutions.
+
+The system combines an STM32-based controller, L6470 stepper motor drivers, optical limit-switch sensing, and a PC-based Human-Machine Interface (HMI) developed in C#. User commands are transmitted from the PC to the controller through UART communication, decoded by the STM32, and then forwarded to the motor drivers via SPI to achieve coordinated multi-axis motion control.
+
+To improve system integration and reduce hardware complexity, a custom PCB was designed in Altium Designer to combine the microcontroller, motor drivers, signal isolation circuits, and sensor interfaces into a unified embedded control platform.
+
+## Key Features
+- Multi-axis stepper motor position control
+- UART communication between PC and embedded controller
+- SPI-based motor driver control
+- PC-based control interface developed in C#
+- Optical limit-switch protection mechanism
+- Custom PCB design and hardware integration
+- Multi-board architecture for scalable motor control
+
+
+## Tools & Technologies
+
+- **Programming:** C, C#
+- **Microcontroller:** STM32F401RE / STM32F401RCT6
+- **Motor Driver:** L6470 (X-NUCLEO-IHM02A1)
+- **Communication:** UART, SPI
+- **Sensors:** Optical Interrupters, Limit Switches
+- **PCB Design:** Altium Designer
+- **IDE:** Keil uVision5, Visual Studio 2022
+- **HMI:** PC-based Control Interface
+
+
+## My Contributions
+- Developed multi-axis motor control firmware in C on STM32 platforms
+- Implemented UART and SPI communication between the PC interface, MCU, and motor drivers
+- Designed sensor feedback logic using optical limit switches to constrain motor positions and prevent out-of-range motion
+- Developed a PC-based control interface in C# for command transmission and status monitoring
+- Designed and customized a PCB based on the X-NUCLEO-IHM02A1 reference design, integrating the STM32 controller, motor drivers, and sensor interfaces into a compact system
+- Participated in hardware integration, system validation, and debugging
+
+
+
+
+
+## Hardware Components
+
+### STM32 Development Board
+
+The STM32F401RE and STM32F401RCT6 platforms were used for firmware development and system integration. The STM32 acts as the central controller responsible for command processing, communication management, and motor control.
 
 <div style="text-align: center;">
   <img src="fig/F401RE.jpg" />
 </div>
-
-### STM32 F401RCT6 CORE BOARD
-
-Compared to the STM32F401RE, which uses the same MCU and functionalities, the flashing method for this board utilizes JTAG. Although this flashing method is more complex than that of the STM32F401RE, it offers the advantage of a smaller size, making it more suitable for system integration and reducing the space required.  
-
 
 
 <div style="text-align: center;">
@@ -64,18 +97,16 @@ In this project, the ILQ620GB optocoupler is used as an isolation for limit swit
 
 ### Stepper motor
  
-A stepper motor is a type of brushless DC electric motor characterized by a stator and rotor with teeth-like projections that interlock. It rotates in discrete steps by switching the direction of current in the stator coils. Stepper motors operate using open-loop control and are triggered by pulse signals to switch currents. They do not require feedback devices for position or speed detection. This allows stepper motors to rotate precisely in proportion to the pulse signals, achieving accurate position and speed control with high stability.  
+The system uses micro-stepping stepper motors driven by L6470 motor drivers for precise position and motion control.
 
 <div style="text-align: center;">
   <img src="fig/02.jpg" />  
 </div>
 
 
-## Circuit Test
+## Development Process
 ### Two-axis circuit testing
-Before designing the circuit using Altium Designer, some functions of the original driver board were not used. After research and discussion, it was decided to remove certain circuits to simplify both the circuitry and cost. The driving circuit was then soldered using a phenolic board and an IC adapter board, followed by testing.
-
-After soldering the circuit, it was discovered that an abnormal indicator light on the driver board occasionally lit up. By checking the abnormal status table through the C# interface, it was found that there was insufficient power supply. Upon inspection, it was discovered that there was poor contact at the power supply connection of the soldered circuit. After correcting this issue, all functions were able to be used normally, and it was possible to perform multi-axis control in conjunction with the original driver board.  
+Before PCB development, a simplified two-axis motor control circuit was assembled and validated using prototype hardware. The prototype was used to verify motor control functions, communication interfaces, and power-system reliability.
 
 <div style="text-align: center;">
   <img src="fig/兩軸電木板.jpg" />  
@@ -84,23 +115,48 @@ After soldering the circuit, it was discovered that an abnormal indicator light 
 ### Four-axis circuit 
 
 
-or this project, the PCB for the four-axis stepper motor driver utilizes the Gerber files from the X-NUCLEO-IHM02A1 as a reference for design. The control circuit incorporates the STM32F401RCT6 CORE BOARD into the design of the lower board and integrates it with the stepper motor driving circuit. Additionally, the configuration of the ARCUS four-axis motor axis card's upper and lower boards is referenced. The stepper motor output lines and limit switch connections, as well as status and power indicator lights, are routed from the upper board. The upper and lower boards are connected using pin headers and sockets.
+The four-axis motor controller PCB was developed based on the X-NUCLEO-IHM02A1 reference design. The design integrates:
+
+- STM32F401RCT6 controller
+- L6470 motor drivers
+- Optical isolation circuits
+- Limit-switch interfaces
+- Power and status monitoring circuits
 
 Due to the use of a milling machine for PCB engraving, vias in the TOP layer and BOTTOM layer require soldering to ensure continuity. Special planning was done for the via design to avoid potential issues with the circuit's functionality later on.
 
 Since the limit switch's power and trigger voltage requirements do not match the system's power supply, optical isolation is needed for electrical isolation. Therefore, an optical isolation circuit was added to the upper board to ensure the proper functionality of the limit switch.
+### Upper PCB
 
 <div style="text-align: center;">
-  <img src="fig/電路板上版.jpg" />  
-  <img src="fig/電路板下版.jpg" />  
+  <img src="fig/電路板上版.jpg "  style="width:50%;"/>  
+  <img src="fig/電路板上版2.jpg" />  
 </div>
+
+### Lower PCB
+<div style="text-align: center;">
+  <img src="fig/電路板下版.jpg" style="width:50%;" />  
+  <img src="fig/電路板下版2.jpg" />  
+</div>
+
+
+## What This Project Demonstrates
+- Embedded firmware development using STM32 microcontrollers
+- Integration of MCU-based motor control systems using vendor-provided APIs
+- Practical experience with UART and SPI communication protocols
+- Hardware-software co-design and system integration
+- PCB design and embedded hardware debugging
+- Implementation of safety mechanisms for motion-control applications
+- Ability to interpret datasheets and configure hardware modules
+- Team collaboration across hardware, firmware, and software development
 
 
 
 ## References
-   1.Fully integrated microstepping motor driver with motion engine and SPI.   
-   https://www.st.com/en/motor-drivers/l6470.html  
-   2.Two axis stepper motor driver expansion board based on the L6470 for STM32 Nucleo.  
-   https://www.st.com/en/ecosystems/x-nucleo-ihm02a1.html  
-   3.STM32 Nucleo-64 development board with STM32F401RE MCU, supports Arduino and ST morpho connectivity.    
-   https://www.st.com/en/evaluation-tools/nucleo-f401re.html
+## References
+
+1. [L6470 Motor Drivers](https://www.st.com/en/motor-drivers/l6470.html)
+
+2. [X-NUCLEO-IHM02A1 Expansion Board](https://www.st.com/en/ecosystems/x-nucleo-ihm02a1.html)
+
+3. [NUCLEO-F401RE Development Board](https://www.st.com/en/evaluation-tools/nucleo-f401re.html)
